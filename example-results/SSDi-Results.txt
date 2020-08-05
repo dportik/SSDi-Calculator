@@ -1,0 +1,143 @@
+Species	Number_Males	Number_Females	Avg_Male	Avg_Female	Standard_SSDi	Avg_Pairwise_SSDi	AbsDifference	Dimorphism_PValue	2.5_percentile	97.5_percentile
+Acanthixalus sonjae	1	1	NA	NA	0.011	NA	NA	NA	NA	NA
+Acanthixalus spinosus	2	2	33.3	34.1	0.024	0.024	0.0	<0.001	-0.024	0.024
+Afrixalus brachycnemis	1	1	NA	NA	0.08	NA	NA	NA	NA	NA
+Afrixalus dorsalis 1	25	5	25.6	25.9	0.012	0.005	0.007	0.9	-0.084	0.061
+Afrixalus dorsalis 2	10	2	24.4	26.4	0.082	0.087	0.005	0.123	-0.101	0.117
+Afrixalus dorsalis 3	23	7	25.7	27.3	0.062	0.062	0.0	0.013	-0.052	0.046
+Afrixalus dorsimaculatus 1	29	6	23.1	25.4	0.1	0.104	0.004	<0.001	-0.054	0.063
+Afrixalus fornasini	32	11	31.0	32.7	0.055	0.054	0.001	<0.001	-0.025	0.026
+Afrixalus fulvovittatus 1	35	8	24.4	25.9	0.061	0.068	0.007	0.076	-0.078	0.073
+Afrixalus fulvovittatus 2	7	6	23.1	24.6	0.065	0.063	0.002	0.011	-0.051	0.051
+Afrixalus knysae	1	1	NA	NA	0.111	NA	NA	NA	NA	NA
+Afrixalus lacteus	4	2	21.9	27.1	0.237	0.242	0.005	<0.001	-0.145	0.242
+Afrixalus lacustris	5	1	21.4	NA	0.145	0.147	0.002	<0.001	-0.07	0.147
+Afrixalus laevis	8	3	21.4	23.1	0.079	0.08	0.001	0.017	-0.065	0.075
+Afrixalus nigeriensis	23	4	28.0	31.7	0.132	0.132	0.0	<0.001	-0.057	0.067
+Afrixalus osorioi	20	7	27.6	28.9	0.047	0.05	0.003	0.032	-0.046	0.047
+Afrixalus paradorsalis manengubensis	1	1	NA	NA	0.132	NA	NA	NA	NA	NA
+Afrixalus paradorsalis paradorsalis 1	74	7	30.0	32.4	0.08	0.082	0.002	<0.001	-0.032	0.038
+Afrixalus paradorsalis paradorsalis 2	26	5	28.9	31.7	0.097	0.101	0.004	<0.001	-0.057	0.061
+Afrixalus quadrivittatus 2	23	13	25.8	25.7	-0.004	-0.01	0.006	0.687	-0.05	0.048
+Afrixalus spinifrons	5	3	19.0	18.8	-0.011	-0.01	0.001	0.751	-0.065	0.067
+Afrixalus sylvaticus	1	1	NA	NA	0.143	NA	NA	NA	NA	NA
+Afrixalus vibekensis	4	1	20.9	NA	0.124	0.127	0.003	<0.001	-0.123	0.127
+Afrixalus vittiger 1	12	3	26.1	28.9	0.107	0.108	0.001	<0.001	-0.057	0.082
+Afrixalus vittiger 2	6	4	24.0	24.6	0.025	0.026	0.001	0.364	-0.058	0.057
+Afrixalus weidholzi	5	1	19.3	NA	0.155	0.158	0.003	<0.001	-0.135	0.158
+Afrixalus wittei	14	1	26.8	NA	0.056	0.059	0.003	0.14	-0.062	0.067
+Cryptothylax greshoffii	13	3	44.2	53.2	0.204	0.214	0.01	0.009	-0.181	0.171
+Heterixalus alboguttatus	1	1	NA	NA	0.281	NA	NA	NA	NA	NA
+Heterixalus andrakata	1	1	NA	NA	0.154	NA	NA	NA	NA	NA
+Heterixalus betsileo	3	3	22.0	24.3	0.105	0.104	0.001	<0.001	-0.104	0.104
+Heterixalus boettgeri	2	2	25.1	28.7	0.143	0.148	0.005	<0.001	-0.148	0.148
+Heterixalus luteostriatus	1	1	NA	NA	0.057	NA	NA	NA	NA	NA
+Heterixalus madagascariensis	1	1	NA	NA	0.143	NA	NA	NA	NA	NA
+Heterixalus variabilis	1	1	NA	NA	0.143	NA	NA	NA	NA	NA
+Hyperolius ademetzi	12	2	18.0	23.3	0.294	0.297	0.003	<0.001	-0.131	0.262
+Hyperolius adspersus	12	1	22.4	NA	-0.042	-0.041	0.001	0.312	-0.052	0.078
+Hyperolius argus	48	7	32.4	31.4	-0.032	-0.034	0.002	0.195	-0.055	0.049
+Hyperolius balfouri balfouri	32	3	30.6	37.4	0.222	0.229	0.007	<0.001	-0.129	0.132
+Hyperolius balfouri viridistriatus	24	1	31.3	NA	0.208	0.212	0.004	<0.001	-0.164	0.212
+Hyperolius baumanni	15	1	28.2	NA	0.202	0.205	0.003	<0.001	-0.157	0.205
+Hyperolius benguellensis	23	3	19.7	23.1	0.173	0.183	0.01	0.008	-0.165	0.108
+Hyperolius bobirensis	24	8	33.3	45.7	0.372	0.374	0.002	<0.001	-0.129	0.143
+Hyperolius bolifambae	33	10	24.7	30.1	0.219	0.221	0.002	<0.001	-0.067	0.079
+Hyperolius burgessi	22	12	19.0	24.3	0.279	0.28	0.001	<0.001	-0.099	0.103
+Hyperolius camerunensis	13	6	23.4	29.2	0.248	0.25	0.002	<0.001	-0.125	0.129
+Hyperolius castaneus	43	3	23.3	27.7	0.189	0.189	0.0	<0.001	-0.077	0.093
+Hyperolius chelaensis	1	1	NA	NA	0.28	NA	NA	NA	NA	NA
+Hyperolius chlorosteus	3	1	35.3	NA	0.003	0.003	0.0	0.746	-0.048	0.057
+Hyperolius cinereus	1	1	NA	NA	0.171	NA	NA	NA	NA	NA
+Hyperolius cinnamomeoventris 2	35	7	22.5	27.7	0.231	0.237	0.006	<0.001	-0.102	0.11
+Hyperolius concolor concolor	29	15	28.1	35.0	0.246	0.255	0.009	<0.001	-0.09	0.091
+Hyperolius concolor guttatus	45	14	27.8	34.4	0.237	0.239	0.002	<0.001	-0.07	0.073
+Hyperolius concolor ibadanensis	18	2	29.3	34.9	0.191	0.191	0.0	<0.001	-0.068	0.128
+Hyperolius cystocandicans	24	3	25.4	29.8	0.173	0.177	0.004	<0.001	-0.099	0.102
+Hyperolius davenporti	11	2	18.8	26.9	0.431	0.435	0.004	<0.001	-0.152	0.227
+Hyperolius dintelmanni	16	4	31.0	32.6	0.052	0.052	0.0	0.006	-0.037	0.041
+Hyperolius discodactylus	25	8	29.1	32.5	0.117	0.121	0.004	<0.001	-0.061	0.062
+Hyperolius drewesi	4	1	29.4	NA	0.112	0.114	0.002	<0.001	-0.096	0.114
+Hyperolius endjami 2	2	2	22.1	25.2	0.14	0.14	0.0	<0.001	-0.14	0.14
+Hyperolius frontalis	20	3	27.1	29.5	0.089	0.088	0.001	0.001	-0.058	0.053
+Hyperolius fusciventris burtoni	14	9	21.4	27.0	0.262	0.264	0.002	<0.001	-0.124	0.124
+Hyperolius fusciventris ssp	20	3	19.4	26.2	0.351	0.352	0.001	<0.001	-0.13	0.199
+Hyperolius guttulatus 1	2	1	31.6	NA	0.101	0.102	0.001	0.335	-0.106	0.102
+Hyperolius guttulatus 2	49	6	30.8	32.8	0.065	0.062	0.003	0.118	-0.077	0.079
+Hyperolius horstockii	3	6	34.7	34.9	0.006	0.007	0.001	0.895	-0.134	0.139
+Hyperolius howelli	2	1	20.6	NA	-0.084	-0.084	0.0	<0.001	-0.084	0.072
+Hyperolius inyangae	3	1	20.1	NA	0.075	0.076	0.001	0.496	-0.105	0.083
+Hyperolius jacobseni	1	1	NA	NA	-0.092	NA	NA	NA	NA	NA
+Hyperolius kachalolae	25	3	25.4	28.3	0.114	0.115	0.001	0.002	-0.066	0.071
+Hyperolius kivuensis 1	13	5	27.7	32.9	0.188	0.194	0.006	<0.001	-0.119	0.123
+Hyperolius kivuensis 3	8	1	29.0	NA	0.121	0.122	0.001	<0.001	-0.105	0.122
+Hyperolius koehleri	2	1	27.9	NA	0.007	0.005	0.002	0.655	-0.016	0.011
+Hyperolius lamottei	6	27	23.4	25.5	0.09	0.093	0.003	<0.001	-0.054	0.053
+Hyperolius langi	10	1	21.8	NA	0.303	0.303	0.0	<0.001	-0.109	0.303
+Hyperolius lateralis	38	6	23.8	27.6	0.16	0.165	0.005	<0.001	-0.06	0.07
+Hyperolius mariae	11	5	23.3	24.6	0.056	0.057	0.001	0.093	-0.07	0.061
+Hyperolius mariae 2	4	3	25.3	25.2	-0.004	0.001	0.005	0.97	-0.092	0.08
+Hyperolius marmoratus argentovittis	1	1	NA	NA	-0.074	NA	NA	NA	NA	NA
+Hyperolius marmoratus marmoratus	1	2	NA	28.3	-0.032	-0.034	0.002	0.66	-0.055	0.088
+Hyperolius marmoratus verrucosus	2	2	27.8	26.5	-0.049	-0.052	0.003	<0.001	-0.052	0.052
+Hyperolius mitchelli	36	3	25.2	27.2	0.079	0.092	0.013	0.159	-0.131	0.118
+Hyperolius molleri	29	3	27.5	35.4	0.287	0.294	0.007	<0.001	-0.133	0.169
+Hyperolius montanus	5	3	24.8	32.6	0.315	0.319	0.004	<0.001	-0.225	0.225
+Hyperolius mosaicus	9	1	23.3	NA	0.189	0.189	0.0	<0.001	-0.068	0.189
+Hyperolius nasutus	16	7	19.1	19.6	0.026	0.035	0.009	0.47	-0.094	0.094
+Hyperolius nitidulus 1	22	2	29.6	34.0	0.149	0.152	0.003	<0.001	-0.086	0.104
+Hyperolius nitidulus 2	22	11	28.7	29.2	0.017	0.023	0.006	0.366	-0.051	0.049
+Hyperolius occidentalis	6	5	25.5	31.0	0.216	0.221	0.005	<0.001	-0.151	0.157
+Hyperolius ocellatus ocellatus	31	15	22.8	28.2	0.237	0.24	0.003	<0.001	-0.083	0.089
+Hyperolius ocellatus purpurescens	74	19	21.4	26.1	0.22	0.217	0.003	<0.001	-0.047	0.052
+Hyperolius olivaceus	18	3	22.6	26.0	0.15	0.153	0.003	0.002	-0.094	0.106
+Hyperolius parallelus alborufus	16	1	30.5	NA	-0.01	-0.008	0.002	0.828	-0.106	0.128
+Hyperolius parallelus parallelus	57	10	28.4	28.3	-0.004	-0.007	0.003	0.875	-0.096	0.083
+Hyperolius parallelus pyrrhodictyon	2	1	30.5	NA	-0.01	-0.007	0.003	0.669	-0.054	0.062
+Hyperolius pardalis	6	3	23.2	28.2	0.216	0.217	0.001	<0.001	-0.156	0.173
+Hyperolius parkeri	15	5	22.0	20.5	-0.073	-0.079	0.006	0.056	-0.081	0.082
+Hyperolius phantasticus	12	3	30.2	35.6	0.179	0.194	0.015	0.015	-0.164	0.159
+Hyperolius picturatus	16	8	27.9	31.8	0.14	0.138	0.002	<0.001	-0.071	0.077
+Hyperolius pictus	1	1	NA	NA	0.31	NA	NA	NA	NA	NA
+Hyperolius platyceps	2	2	23.9	28.7	0.201	0.203	0.002	0.208	-0.204	0.204
+Hyperolius pusillus	18	7	20.2	20.3	0.005	0.004	0.001	0.805	-0.032	0.034
+Hyperolius quinquevittatus	27	2	20.1	25.4	0.264	0.267	0.003	<0.001	-0.13	0.179
+Hyperolius raymondii	1	1	NA	NA	0.146	NA	NA	NA	NA	NA
+Hyperolius reesi	1	1	NA	NA	0.182	NA	NA	NA	NA	NA
+Hyperolius riggenbachi	45	3	27.7	34.9	0.26	0.267	0.007	<0.001	-0.1	0.129
+Hyperolius rubrovermiculatus	18	2	24.5	30.2	0.233	0.238	0.005	<0.001	-0.117	0.186
+Hyperolius rwandae	18	3	19.8	19.2	-0.031	-0.03	0.001	0.344	-0.055	0.065
+Hyperolius semidiscus	12	3	29.4	32.5	0.105	0.108	0.003	0.043	-0.108	0.106
+Hyperolius spatzi	1	1	NA	NA	0.055	NA	NA	NA	NA	NA
+Hyperolius spinigularis	10	3	19.6	24.5	0.25	0.251	0.001	<0.001	-0.128	0.167
+Hyperolius steindachneri	1	1	NA	NA	0.138	NA	NA	NA	NA	NA
+Hyperolius substriatus	25	24	27.2	33.6	0.235	0.241	0.006	<0.001	-0.084	0.087
+Hyperolius sylvaticus	22	6	24.4	29.9	0.225	0.233	0.008	<0.001	-0.103	0.108
+Hyperolius tanneri	2	3	22.2	25.7	0.158	0.156	0.002	0.204	-0.179	0.156
+Hyperolius thomensis	6	3	38.8	44.3	0.142	0.144	0.002	<0.001	-0.11	0.127
+Hyperolius torrentis	14	5	35.7	40.8	0.143	0.145	0.002	<0.001	-0.073	0.08
+Hyperolius tuberculatus	44	18	28.8	31.1	0.08	0.087	0.007	0.003	-0.059	0.056
+Hyperolius tuberilinguis	18	12	26.7	31.4	0.176	0.181	0.005	<0.001	-0.078	0.079
+Hyperolius veithi	1	1	NA	NA	0.319	NA	NA	NA	NA	NA
+Hyperolius viridiflavus ferniquei	43	3	31.1	32.6	0.048	0.051	0.003	0.261	-0.082	0.092
+Hyperolius viridiflavus glandicolor	31	3	29.7	29.8	0.003	0.003	0.0	0.905	-0.066	0.057
+Hyperolius viridiflavus goetzei	3	1	25.8	NA	0.031	0.034	0.003	0.745	-0.084	0.111
+Hyperolius viridiflavus ngorongoriensis	18	6	29.6	30.1	0.017	0.022	0.005	0.477	-0.061	0.058
+Hyperolius viridiflavus pantherinus	21	1	31.9	NA	0.163	0.165	0.002	<0.001	-0.109	0.165
+Hyperolius viridiflavus pitmani	28	2	31.0	33.9	0.094	0.094	0.0	0.019	-0.071	0.092
+Hyperolius viridiflavus rubripes	50	8	22.7	24.0	0.057	0.059	0.002	0.001	-0.038	0.037
+Hyperolius viridiflavus viridiflavus	38	4	27.0	27.5	0.019	0.019	0.0	0.579	-0.069	0.066
+Kassina arboricola	15	6	39.9	37.9	-0.053	-0.05	0.003	0.045	-0.05	0.049
+Kassina cochranae	1	2	NA	36.0	-0.003	-0.003	0.0	0.66	-0.07	0.073
+Kassina fusca	8	1	34.4	NA	0.073	0.078	0.005	0.218	-0.132	0.143
+Kassina kuvangensis	16	3	42.6	48.1	0.129	0.135	0.006	0.013	-0.115	0.095
+Kassina schioetzi	1	1	NA	NA	0.011	NA	NA	NA	NA	NA
+Kassina senegalensis	56	15	34.2	34.0	-0.006	-0.004	0.002	0.888	-0.061	0.064
+Morerella cyanophthalma	1	1	NA	NA	0.114	NA	NA	NA	NA	NA
+Opisthothylax immaculatus	7	2	29.8	32.3	0.084	0.083	0.001	<0.001	-0.076	0.083
+Paracassina kounhiensis	1	2	NA	47.9	-0.023	-0.024	0.001	0.337	-0.024	0.04
+Phlyctimantis leonardi	4	1	46.2	NA	0.03	0.032	0.002	<0.001	-0.026	0.032
+Phlyctimantis maculata	14	2	60.2	62.6	0.04	0.049	0.009	0.558	-0.159	0.127
+Phlyctimantis verrucosus	30	6	48.5	49.6	0.023	0.022	0.001	0.349	-0.046	0.046
+Semnodactylus wealii	10	9	33.2	37.3	0.123	0.128	0.005	0.004	-0.094	0.089
+Tachycnemis seychellensis	4	5	43.2	56.7	0.313	0.316	0.003	<0.001	-0.26	0.222

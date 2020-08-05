@@ -1,0 +1,1570 @@
+DEBUG: 04-Aug-20 19:59:22: BEGINNING ANALYSIS
+DEBUG: 04-Aug-20 19:59:22: Arguments: 
+		-i /Users/portik/Documents/GitHub/SSDi-Calculator/example-data/Hyperoliid-Dataset.csv 
+		-f csv 
+		-o /Users/portik/Documents/GitHub/SSDi-Calculator/example-results
+INFO: 04-Aug-20 19:59:22: Reading input data file: Hyperoliid-Dataset.csv
+DEBUG: 04-Aug-20 19:59:22: input_to_dict: Skipping entry - Hyperolius concolor concolor, F?, 25.7
+DEBUG: 04-Aug-20 19:59:22: input_to_dict: Skipping entry - Hyperolius concolor concolor, F?, 29.9
+DEBUG: 04-Aug-20 19:59:22: input_to_dict: Skipping entry - Hyperolius fusciventris ssp, , 23.0
+DEBUG: 04-Aug-20 19:59:22: input_to_dict: Skipping entry - Hyperolius fusciventris ssp, , 23.8
+DEBUG: 04-Aug-20 19:59:22: input_to_dict: Skipping entry - Hyperolius guttulatus 2, F?, 33.9
+DEBUG: 04-Aug-20 19:59:22: input_to_dict: Skipping entry - Hyperolius guttulatus 2, F?, 30.4
+DEBUG: 04-Aug-20 19:59:22: input_to_dict: Skipping entry - Hyperolius guttulatus 2, F?, 27.6
+DEBUG: 04-Aug-20 19:59:22: input_to_dict: Skipping entry - Hyperolius thomensis
+DEBUG: 04-Aug-20 19:59:22: input_to_dict: Skipping entry - Hyperolius thomensis, F?, 40.4
+DEBUG: 04-Aug-20 19:59:22: input_to_dict: Skipping entry - Tachycnemis seychellensis, J?, 39.9
+INFO: 04-Aug-20 19:59:22: Found data for 164 species.
+
+
+DEBUG: 04-Aug-20 19:59:22: Species with > 1 M and > 1 F: 95
+DEBUG: 04-Aug-20 19:59:22: Species with > 2 M and > 2 F: 78
+DEBUG: 04-Aug-20 19:59:22: Species with > 3 M and > 3 F: 50
+
+
+INFO: 04-Aug-20 19:59:22: Species: Acanthixalus sonjae
+INFO: 04-Aug-20 19:59:22: Males: 1
+INFO: 04-Aug-20 19:59:22: Females: 1
+INFO: 04-Aug-20 19:59:22: Standard SSDi: 0.011
+
+INFO: 04-Aug-20 19:59:22: Species: Acanthixalus spinosus
+INFO: 04-Aug-20 19:59:22: Males: 2
+INFO: 04-Aug-20 19:59:22: Females: 2
+INFO: 04-Aug-20 19:59:22: Standard SSDi: 0.024.
+INFO: 04-Aug-20 19:59:22: Pairwise Analyses: Average pairwise SSDi: 0.024.
+DEBUG: 04-Aug-20 19:59:22: Pairwise Analyses: One-sample t-test P-value: 0.053.
+INFO: 04-Aug-20 19:59:22: Permutation Test: 2.5 and 97.5 percentile values: -0.024, 0.024.
+INFO: 04-Aug-20 19:59:22: Permutation Test: Empirical value: 0.024
+INFO: 04-Aug-20 19:59:22: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 19:59:22: Permutation Test: Permutation test P-value: <0.001.
+
+INFO: 04-Aug-20 19:59:22: Species: Afrixalus brachycnemis
+INFO: 04-Aug-20 19:59:22: Males: 1
+INFO: 04-Aug-20 19:59:22: Females: 1
+INFO: 04-Aug-20 19:59:22: Standard SSDi: 0.08
+
+INFO: 04-Aug-20 19:59:22: Species: Afrixalus dorsalis 1
+INFO: 04-Aug-20 19:59:22: Males: 25
+INFO: 04-Aug-20 19:59:22: Females: 5
+INFO: 04-Aug-20 19:59:22: Standard SSDi: 0.012.
+INFO: 04-Aug-20 19:59:22: Pairwise Analyses: Average pairwise SSDi: 0.005.
+DEBUG: 04-Aug-20 19:59:22: Pairwise Analyses: One-sample t-test P-value: 0.67.
+INFO: 04-Aug-20 19:59:23: Permutation Test: 2.5 and 97.5 percentile values: -0.084, 0.061.
+INFO: 04-Aug-20 19:59:23: Permutation Test: Empirical value: 0.005
+INFO: 04-Aug-20 19:59:23: Permutation Test: Empirical value within the 2.5 and 97.5 percentiles.
+INFO: 04-Aug-20 19:59:23: Permutation Test: Permutation test P-value: 0.9.
+
+INFO: 04-Aug-20 19:59:23: Species: Afrixalus dorsalis 2
+INFO: 04-Aug-20 19:59:23: Males: 10
+INFO: 04-Aug-20 19:59:23: Females: 2
+INFO: 04-Aug-20 19:59:23: Standard SSDi: 0.082.
+INFO: 04-Aug-20 19:59:23: Pairwise Analyses: Average pairwise SSDi: 0.087.
+DEBUG: 04-Aug-20 19:59:23: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 19:59:23: Permutation Test: 2.5 and 97.5 percentile values: -0.101, 0.117.
+INFO: 04-Aug-20 19:59:23: Permutation Test: Empirical value: 0.087
+INFO: 04-Aug-20 19:59:23: Permutation Test: Empirical value within the 2.5 and 97.5 percentiles.
+INFO: 04-Aug-20 19:59:23: Permutation Test: Permutation test P-value: 0.123.
+
+INFO: 04-Aug-20 19:59:23: Species: Afrixalus dorsalis 3
+INFO: 04-Aug-20 19:59:23: Males: 23
+INFO: 04-Aug-20 19:59:23: Females: 7
+INFO: 04-Aug-20 19:59:23: Standard SSDi: 0.062.
+INFO: 04-Aug-20 19:59:23: Pairwise Analyses: Average pairwise SSDi: 0.062.
+DEBUG: 04-Aug-20 19:59:23: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 19:59:24: Permutation Test: 2.5 and 97.5 percentile values: -0.052, 0.046.
+INFO: 04-Aug-20 19:59:24: Permutation Test: Empirical value: 0.062
+INFO: 04-Aug-20 19:59:24: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 19:59:24: Permutation Test: Permutation test P-value: 0.013.
+
+INFO: 04-Aug-20 19:59:24: Species: Afrixalus dorsimaculatus 1
+INFO: 04-Aug-20 19:59:24: Males: 29
+INFO: 04-Aug-20 19:59:24: Females: 6
+INFO: 04-Aug-20 19:59:24: Standard SSDi: 0.1.
+INFO: 04-Aug-20 19:59:24: Pairwise Analyses: Average pairwise SSDi: 0.104.
+DEBUG: 04-Aug-20 19:59:24: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 19:59:26: Permutation Test: 2.5 and 97.5 percentile values: -0.054, 0.063.
+INFO: 04-Aug-20 19:59:26: Permutation Test: Empirical value: 0.104
+INFO: 04-Aug-20 19:59:26: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 19:59:26: Permutation Test: Permutation test P-value: <0.001.
+
+INFO: 04-Aug-20 19:59:26: Species: Afrixalus enseticola
+INFO: 04-Aug-20 19:59:26: Males: 2
+INFO: 04-Aug-20 19:59:26: Females: 0
+ERROR: 04-Aug-20 19:59:26: Species Afrixalus enseticola does not have at least 1 M and 1 F, skipping calculations.
+
+INFO: 04-Aug-20 19:59:26: Species: Afrixalus fornasini
+INFO: 04-Aug-20 19:59:26: Males: 32
+INFO: 04-Aug-20 19:59:26: Females: 11
+INFO: 04-Aug-20 19:59:26: Standard SSDi: 0.055.
+INFO: 04-Aug-20 19:59:26: Pairwise Analyses: Average pairwise SSDi: 0.054.
+DEBUG: 04-Aug-20 19:59:26: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 19:59:28: Permutation Test: 2.5 and 97.5 percentile values: -0.025, 0.026.
+INFO: 04-Aug-20 19:59:28: Permutation Test: Empirical value: 0.054
+INFO: 04-Aug-20 19:59:28: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 19:59:28: Permutation Test: Permutation test P-value: <0.001.
+
+INFO: 04-Aug-20 19:59:28: Species: Afrixalus fulvovittatus 1
+INFO: 04-Aug-20 19:59:28: Males: 35
+INFO: 04-Aug-20 19:59:28: Females: 8
+INFO: 04-Aug-20 19:59:28: Standard SSDi: 0.061.
+INFO: 04-Aug-20 19:59:28: Pairwise Analyses: Average pairwise SSDi: 0.068.
+DEBUG: 04-Aug-20 19:59:28: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 19:59:30: Permutation Test: 2.5 and 97.5 percentile values: -0.078, 0.073.
+INFO: 04-Aug-20 19:59:30: Permutation Test: Empirical value: 0.068
+INFO: 04-Aug-20 19:59:30: Permutation Test: Empirical value within the 2.5 and 97.5 percentiles.
+INFO: 04-Aug-20 19:59:30: Permutation Test: Permutation test P-value: 0.076.
+
+INFO: 04-Aug-20 19:59:30: Species: Afrixalus fulvovittatus 2
+INFO: 04-Aug-20 19:59:30: Males: 7
+INFO: 04-Aug-20 19:59:30: Females: 6
+INFO: 04-Aug-20 19:59:30: Standard SSDi: 0.065.
+INFO: 04-Aug-20 19:59:30: Pairwise Analyses: Average pairwise SSDi: 0.063.
+DEBUG: 04-Aug-20 19:59:30: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 19:59:31: Permutation Test: 2.5 and 97.5 percentile values: -0.051, 0.051.
+INFO: 04-Aug-20 19:59:31: Permutation Test: Empirical value: 0.063
+INFO: 04-Aug-20 19:59:31: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 19:59:31: Permutation Test: Permutation test P-value: 0.011.
+
+INFO: 04-Aug-20 19:59:31: Species: Afrixalus knysae
+INFO: 04-Aug-20 19:59:31: Males: 1
+INFO: 04-Aug-20 19:59:31: Females: 1
+INFO: 04-Aug-20 19:59:31: Standard SSDi: 0.111
+
+INFO: 04-Aug-20 19:59:31: Species: Afrixalus lacteus
+INFO: 04-Aug-20 19:59:31: Males: 4
+INFO: 04-Aug-20 19:59:31: Females: 2
+INFO: 04-Aug-20 19:59:31: Standard SSDi: 0.237.
+INFO: 04-Aug-20 19:59:31: Pairwise Analyses: Average pairwise SSDi: 0.242.
+DEBUG: 04-Aug-20 19:59:31: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 19:59:31: Permutation Test: 2.5 and 97.5 percentile values: -0.145, 0.242.
+INFO: 04-Aug-20 19:59:31: Permutation Test: Empirical value: 0.242
+INFO: 04-Aug-20 19:59:31: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 19:59:31: Permutation Test: Permutation test P-value: <0.001.
+
+INFO: 04-Aug-20 19:59:31: Species: Afrixalus lacustris
+INFO: 04-Aug-20 19:59:31: Males: 5
+INFO: 04-Aug-20 19:59:31: Females: 1
+INFO: 04-Aug-20 19:59:31: Standard SSDi: 0.145.
+INFO: 04-Aug-20 19:59:31: Pairwise Analyses: Average pairwise SSDi: 0.147.
+DEBUG: 04-Aug-20 19:59:31: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 19:59:31: Permutation Test: 2.5 and 97.5 percentile values: -0.07, 0.147.
+INFO: 04-Aug-20 19:59:31: Permutation Test: Empirical value: 0.147
+INFO: 04-Aug-20 19:59:31: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 19:59:31: Permutation Test: Permutation test P-value: <0.001.
+
+INFO: 04-Aug-20 19:59:31: Species: Afrixalus laevis
+INFO: 04-Aug-20 19:59:31: Males: 8
+INFO: 04-Aug-20 19:59:31: Females: 3
+INFO: 04-Aug-20 19:59:31: Standard SSDi: 0.079.
+INFO: 04-Aug-20 19:59:31: Pairwise Analyses: Average pairwise SSDi: 0.08.
+DEBUG: 04-Aug-20 19:59:31: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 19:59:32: Permutation Test: 2.5 and 97.5 percentile values: -0.065, 0.075.
+INFO: 04-Aug-20 19:59:32: Permutation Test: Empirical value: 0.08
+INFO: 04-Aug-20 19:59:32: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 19:59:32: Permutation Test: Permutation test P-value: 0.017.
+
+INFO: 04-Aug-20 19:59:32: Species: Afrixalus nigeriensis
+INFO: 04-Aug-20 19:59:32: Males: 23
+INFO: 04-Aug-20 19:59:32: Females: 4
+INFO: 04-Aug-20 19:59:32: Standard SSDi: 0.132.
+INFO: 04-Aug-20 19:59:32: Pairwise Analyses: Average pairwise SSDi: 0.132.
+DEBUG: 04-Aug-20 19:59:32: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 19:59:32: Permutation Test: 2.5 and 97.5 percentile values: -0.057, 0.067.
+INFO: 04-Aug-20 19:59:32: Permutation Test: Empirical value: 0.132
+INFO: 04-Aug-20 19:59:32: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 19:59:32: Permutation Test: Permutation test P-value: <0.001.
+
+INFO: 04-Aug-20 19:59:32: Species: Afrixalus osorioi
+INFO: 04-Aug-20 19:59:32: Males: 20
+INFO: 04-Aug-20 19:59:32: Females: 7
+INFO: 04-Aug-20 19:59:32: Standard SSDi: 0.047.
+INFO: 04-Aug-20 19:59:32: Pairwise Analyses: Average pairwise SSDi: 0.05.
+DEBUG: 04-Aug-20 19:59:32: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 19:59:34: Permutation Test: 2.5 and 97.5 percentile values: -0.046, 0.047.
+INFO: 04-Aug-20 19:59:34: Permutation Test: Empirical value: 0.05
+INFO: 04-Aug-20 19:59:34: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 19:59:34: Permutation Test: Permutation test P-value: 0.032.
+
+INFO: 04-Aug-20 19:59:34: Species: Afrixalus paradorsalis manengubensis
+INFO: 04-Aug-20 19:59:34: Males: 1
+INFO: 04-Aug-20 19:59:34: Females: 1
+INFO: 04-Aug-20 19:59:34: Standard SSDi: 0.132
+
+INFO: 04-Aug-20 19:59:34: Species: Afrixalus paradorsalis paradorsalis 1
+INFO: 04-Aug-20 19:59:34: Males: 74
+INFO: 04-Aug-20 19:59:34: Females: 7
+INFO: 04-Aug-20 19:59:34: Standard SSDi: 0.08.
+INFO: 04-Aug-20 19:59:34: Pairwise Analyses: Average pairwise SSDi: 0.082.
+DEBUG: 04-Aug-20 19:59:34: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 19:59:37: Permutation Test: 2.5 and 97.5 percentile values: -0.032, 0.038.
+INFO: 04-Aug-20 19:59:37: Permutation Test: Empirical value: 0.082
+INFO: 04-Aug-20 19:59:37: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 19:59:37: Permutation Test: Permutation test P-value: <0.001.
+
+INFO: 04-Aug-20 19:59:37: Species: Afrixalus paradorsalis paradorsalis 2
+INFO: 04-Aug-20 19:59:37: Males: 26
+INFO: 04-Aug-20 19:59:37: Females: 5
+INFO: 04-Aug-20 19:59:37: Standard SSDi: 0.097.
+INFO: 04-Aug-20 19:59:37: Pairwise Analyses: Average pairwise SSDi: 0.101.
+DEBUG: 04-Aug-20 19:59:37: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 19:59:38: Permutation Test: 2.5 and 97.5 percentile values: -0.057, 0.061.
+INFO: 04-Aug-20 19:59:38: Permutation Test: Empirical value: 0.101
+INFO: 04-Aug-20 19:59:38: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 19:59:38: Permutation Test: Permutation test P-value: <0.001.
+
+INFO: 04-Aug-20 19:59:38: Species: Afrixalus quadrivittatus 2
+INFO: 04-Aug-20 19:59:38: Males: 23
+INFO: 04-Aug-20 19:59:38: Females: 13
+INFO: 04-Aug-20 19:59:38: Standard SSDi: -0.004.
+INFO: 04-Aug-20 19:59:38: Pairwise Analyses: Average pairwise SSDi: -0.01.
+DEBUG: 04-Aug-20 19:59:38: Pairwise Analyses: One-sample t-test P-value: 0.123.
+INFO: 04-Aug-20 19:59:41: Permutation Test: 2.5 and 97.5 percentile values: -0.05, 0.048.
+INFO: 04-Aug-20 19:59:41: Permutation Test: Empirical value: -0.01
+INFO: 04-Aug-20 19:59:41: Permutation Test: Empirical value within the 2.5 and 97.5 percentiles.
+INFO: 04-Aug-20 19:59:41: Permutation Test: Permutation test P-value: 0.687.
+
+INFO: 04-Aug-20 19:59:41: Species: Afrixalus spinifrons
+INFO: 04-Aug-20 19:59:41: Males: 5
+INFO: 04-Aug-20 19:59:41: Females: 3
+INFO: 04-Aug-20 19:59:41: Standard SSDi: -0.011.
+INFO: 04-Aug-20 19:59:41: Pairwise Analyses: Average pairwise SSDi: -0.01.
+DEBUG: 04-Aug-20 19:59:41: Pairwise Analyses: One-sample t-test P-value: 0.477.
+INFO: 04-Aug-20 19:59:41: Permutation Test: 2.5 and 97.5 percentile values: -0.065, 0.067.
+INFO: 04-Aug-20 19:59:41: Permutation Test: Empirical value: -0.01
+INFO: 04-Aug-20 19:59:41: Permutation Test: Empirical value within the 2.5 and 97.5 percentiles.
+INFO: 04-Aug-20 19:59:41: Permutation Test: Permutation test P-value: 0.751.
+
+INFO: 04-Aug-20 19:59:41: Species: Afrixalus sylvaticus
+INFO: 04-Aug-20 19:59:41: Males: 1
+INFO: 04-Aug-20 19:59:41: Females: 1
+INFO: 04-Aug-20 19:59:41: Standard SSDi: 0.143
+
+INFO: 04-Aug-20 19:59:41: Species: Afrixalus vibekensis
+INFO: 04-Aug-20 19:59:41: Males: 4
+INFO: 04-Aug-20 19:59:41: Females: 1
+INFO: 04-Aug-20 19:59:41: Standard SSDi: 0.124.
+INFO: 04-Aug-20 19:59:41: Pairwise Analyses: Average pairwise SSDi: 0.127.
+DEBUG: 04-Aug-20 19:59:41: Pairwise Analyses: One-sample t-test P-value: 0.031.
+INFO: 04-Aug-20 19:59:41: Permutation Test: 2.5 and 97.5 percentile values: -0.123, 0.127.
+INFO: 04-Aug-20 19:59:41: Permutation Test: Empirical value: 0.127
+INFO: 04-Aug-20 19:59:41: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 19:59:41: Permutation Test: Permutation test P-value: <0.001.
+
+INFO: 04-Aug-20 19:59:41: Species: Afrixalus vittiger 1
+INFO: 04-Aug-20 19:59:41: Males: 12
+INFO: 04-Aug-20 19:59:41: Females: 3
+INFO: 04-Aug-20 19:59:41: Standard SSDi: 0.107.
+INFO: 04-Aug-20 19:59:41: Pairwise Analyses: Average pairwise SSDi: 0.108.
+DEBUG: 04-Aug-20 19:59:41: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 19:59:42: Permutation Test: 2.5 and 97.5 percentile values: -0.057, 0.082.
+INFO: 04-Aug-20 19:59:42: Permutation Test: Empirical value: 0.108
+INFO: 04-Aug-20 19:59:42: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 19:59:42: Permutation Test: Permutation test P-value: <0.001.
+
+INFO: 04-Aug-20 19:59:42: Species: Afrixalus vittiger 2
+INFO: 04-Aug-20 19:59:42: Males: 6
+INFO: 04-Aug-20 19:59:42: Females: 4
+INFO: 04-Aug-20 19:59:42: Standard SSDi: 0.025.
+INFO: 04-Aug-20 19:59:42: Pairwise Analyses: Average pairwise SSDi: 0.026.
+DEBUG: 04-Aug-20 19:59:42: Pairwise Analyses: One-sample t-test P-value: 0.029.
+INFO: 04-Aug-20 19:59:42: Permutation Test: 2.5 and 97.5 percentile values: -0.058, 0.057.
+INFO: 04-Aug-20 19:59:42: Permutation Test: Empirical value: 0.026
+INFO: 04-Aug-20 19:59:42: Permutation Test: Empirical value within the 2.5 and 97.5 percentiles.
+INFO: 04-Aug-20 19:59:42: Permutation Test: Permutation test P-value: 0.364.
+
+INFO: 04-Aug-20 19:59:42: Species: Afrixalus weidholzi
+INFO: 04-Aug-20 19:59:42: Males: 5
+INFO: 04-Aug-20 19:59:42: Females: 1
+INFO: 04-Aug-20 19:59:42: Standard SSDi: 0.155.
+INFO: 04-Aug-20 19:59:42: Pairwise Analyses: Average pairwise SSDi: 0.158.
+DEBUG: 04-Aug-20 19:59:42: Pairwise Analyses: One-sample t-test P-value: 0.004.
+INFO: 04-Aug-20 19:59:42: Permutation Test: 2.5 and 97.5 percentile values: -0.135, 0.158.
+INFO: 04-Aug-20 19:59:42: Permutation Test: Empirical value: 0.158
+INFO: 04-Aug-20 19:59:42: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 19:59:42: Permutation Test: Permutation test P-value: <0.001.
+
+INFO: 04-Aug-20 19:59:42: Species: Afrixalus wittei
+INFO: 04-Aug-20 19:59:42: Males: 14
+INFO: 04-Aug-20 19:59:42: Females: 1
+INFO: 04-Aug-20 19:59:42: Standard SSDi: 0.056.
+INFO: 04-Aug-20 19:59:42: Pairwise Analyses: Average pairwise SSDi: 0.059.
+DEBUG: 04-Aug-20 19:59:42: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 19:59:42: Permutation Test: 2.5 and 97.5 percentile values: -0.062, 0.067.
+INFO: 04-Aug-20 19:59:42: Permutation Test: Empirical value: 0.059
+INFO: 04-Aug-20 19:59:42: Permutation Test: Empirical value within the 2.5 and 97.5 percentiles.
+INFO: 04-Aug-20 19:59:42: Permutation Test: Permutation test P-value: 0.14.
+
+INFO: 04-Aug-20 19:59:42: Species: Cryptothylax greshoffii
+INFO: 04-Aug-20 19:59:42: Males: 13
+INFO: 04-Aug-20 19:59:42: Females: 3
+INFO: 04-Aug-20 19:59:42: Standard SSDi: 0.204.
+INFO: 04-Aug-20 19:59:42: Pairwise Analyses: Average pairwise SSDi: 0.214.
+DEBUG: 04-Aug-20 19:59:42: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 19:59:43: Permutation Test: 2.5 and 97.5 percentile values: -0.181, 0.171.
+INFO: 04-Aug-20 19:59:43: Permutation Test: Empirical value: 0.214
+INFO: 04-Aug-20 19:59:43: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 19:59:43: Permutation Test: Permutation test P-value: 0.009.
+
+INFO: 04-Aug-20 19:59:43: Species: Heterixalus alboguttatus
+INFO: 04-Aug-20 19:59:43: Males: 1
+INFO: 04-Aug-20 19:59:43: Females: 1
+INFO: 04-Aug-20 19:59:43: Standard SSDi: 0.281
+
+INFO: 04-Aug-20 19:59:43: Species: Heterixalus andrakata
+INFO: 04-Aug-20 19:59:43: Males: 1
+INFO: 04-Aug-20 19:59:43: Females: 1
+INFO: 04-Aug-20 19:59:43: Standard SSDi: 0.154
+
+INFO: 04-Aug-20 19:59:43: Species: Heterixalus betsileo
+INFO: 04-Aug-20 19:59:43: Males: 3
+INFO: 04-Aug-20 19:59:43: Females: 3
+INFO: 04-Aug-20 19:59:43: Standard SSDi: 0.105.
+INFO: 04-Aug-20 19:59:43: Pairwise Analyses: Average pairwise SSDi: 0.104.
+DEBUG: 04-Aug-20 19:59:43: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 19:59:43: Permutation Test: 2.5 and 97.5 percentile values: -0.104, 0.104.
+INFO: 04-Aug-20 19:59:43: Permutation Test: Empirical value: 0.104
+INFO: 04-Aug-20 19:59:43: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 19:59:43: Permutation Test: Permutation test P-value: <0.001.
+
+INFO: 04-Aug-20 19:59:43: Species: Heterixalus boettgeri
+INFO: 04-Aug-20 19:59:43: Males: 2
+INFO: 04-Aug-20 19:59:43: Females: 2
+INFO: 04-Aug-20 19:59:43: Standard SSDi: 0.143.
+INFO: 04-Aug-20 19:59:43: Pairwise Analyses: Average pairwise SSDi: 0.148.
+DEBUG: 04-Aug-20 19:59:43: Pairwise Analyses: One-sample t-test P-value: 0.047.
+INFO: 04-Aug-20 19:59:43: Permutation Test: 2.5 and 97.5 percentile values: -0.148, 0.148.
+INFO: 04-Aug-20 19:59:43: Permutation Test: Empirical value: 0.148
+INFO: 04-Aug-20 19:59:43: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 19:59:43: Permutation Test: Permutation test P-value: <0.001.
+
+INFO: 04-Aug-20 19:59:43: Species: Heterixalus carbonei
+INFO: 04-Aug-20 19:59:43: Males: 1
+INFO: 04-Aug-20 19:59:43: Females: 0
+ERROR: 04-Aug-20 19:59:43: Species Heterixalus carbonei does not have at least 1 M and 1 F, skipping calculations.
+
+INFO: 04-Aug-20 19:59:43: Species: Heterixalus luteostriatus
+INFO: 04-Aug-20 19:59:43: Males: 1
+INFO: 04-Aug-20 19:59:43: Females: 1
+INFO: 04-Aug-20 19:59:43: Standard SSDi: 0.057
+
+INFO: 04-Aug-20 19:59:43: Species: Heterixalus madagascariensis
+INFO: 04-Aug-20 19:59:43: Males: 1
+INFO: 04-Aug-20 19:59:43: Females: 1
+INFO: 04-Aug-20 19:59:43: Standard SSDi: 0.143
+
+INFO: 04-Aug-20 19:59:43: Species: Heterixalus punctatus
+INFO: 04-Aug-20 19:59:43: Males: 1
+INFO: 04-Aug-20 19:59:43: Females: 0
+ERROR: 04-Aug-20 19:59:43: Species Heterixalus punctatus does not have at least 1 M and 1 F, skipping calculations.
+
+INFO: 04-Aug-20 19:59:43: Species: Heterixalus rutenbergi
+INFO: 04-Aug-20 19:59:43: Males: 1
+INFO: 04-Aug-20 19:59:43: Females: 1
+INFO: 04-Aug-20 19:59:43: Standard SSDi: 0.0
+
+INFO: 04-Aug-20 19:59:43: Species: Heterixalus variabilis
+INFO: 04-Aug-20 19:59:43: Males: 1
+INFO: 04-Aug-20 19:59:43: Females: 1
+INFO: 04-Aug-20 19:59:43: Standard SSDi: 0.143
+
+INFO: 04-Aug-20 19:59:43: Species: Hyperolius ademetzi
+INFO: 04-Aug-20 19:59:43: Males: 12
+INFO: 04-Aug-20 19:59:43: Females: 2
+INFO: 04-Aug-20 19:59:43: Standard SSDi: 0.294.
+INFO: 04-Aug-20 19:59:43: Pairwise Analyses: Average pairwise SSDi: 0.297.
+DEBUG: 04-Aug-20 19:59:43: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 19:59:43: Permutation Test: 2.5 and 97.5 percentile values: -0.131, 0.262.
+INFO: 04-Aug-20 19:59:43: Permutation Test: Empirical value: 0.297
+INFO: 04-Aug-20 19:59:43: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 19:59:43: Permutation Test: Permutation test P-value: <0.001.
+
+INFO: 04-Aug-20 19:59:43: Species: Hyperolius adspersus
+INFO: 04-Aug-20 19:59:43: Males: 12
+INFO: 04-Aug-20 19:59:43: Females: 1
+INFO: 04-Aug-20 19:59:43: Standard SSDi: -0.042.
+INFO: 04-Aug-20 19:59:43: Pairwise Analyses: Average pairwise SSDi: -0.041.
+DEBUG: 04-Aug-20 19:59:43: Pairwise Analyses: One-sample t-test P-value: 0.003.
+INFO: 04-Aug-20 19:59:44: Permutation Test: 2.5 and 97.5 percentile values: -0.052, 0.078.
+INFO: 04-Aug-20 19:59:44: Permutation Test: Empirical value: -0.041
+INFO: 04-Aug-20 19:59:44: Permutation Test: Empirical value within the 2.5 and 97.5 percentiles.
+INFO: 04-Aug-20 19:59:44: Permutation Test: Permutation test P-value: 0.312.
+
+INFO: 04-Aug-20 19:59:44: Species: Hyperolius argus
+INFO: 04-Aug-20 19:59:44: Males: 48
+INFO: 04-Aug-20 19:59:44: Females: 7
+INFO: 04-Aug-20 19:59:44: Standard SSDi: -0.032.
+INFO: 04-Aug-20 19:59:44: Pairwise Analyses: Average pairwise SSDi: -0.034.
+DEBUG: 04-Aug-20 19:59:44: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 19:59:46: Permutation Test: 2.5 and 97.5 percentile values: -0.055, 0.049.
+INFO: 04-Aug-20 19:59:46: Permutation Test: Empirical value: -0.034
+INFO: 04-Aug-20 19:59:46: Permutation Test: Empirical value within the 2.5 and 97.5 percentiles.
+INFO: 04-Aug-20 19:59:46: Permutation Test: Permutation test P-value: 0.195.
+
+INFO: 04-Aug-20 19:59:46: Species: Hyperolius balfouri balfouri
+INFO: 04-Aug-20 19:59:46: Males: 32
+INFO: 04-Aug-20 19:59:46: Females: 3
+INFO: 04-Aug-20 19:59:46: Standard SSDi: 0.222.
+INFO: 04-Aug-20 19:59:46: Pairwise Analyses: Average pairwise SSDi: 0.229.
+DEBUG: 04-Aug-20 19:59:46: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 19:59:47: Permutation Test: 2.5 and 97.5 percentile values: -0.129, 0.132.
+INFO: 04-Aug-20 19:59:47: Permutation Test: Empirical value: 0.229
+INFO: 04-Aug-20 19:59:47: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 19:59:47: Permutation Test: Permutation test P-value: <0.001.
+
+INFO: 04-Aug-20 19:59:47: Species: Hyperolius balfouri viridistriatus
+INFO: 04-Aug-20 19:59:47: Males: 24
+INFO: 04-Aug-20 19:59:47: Females: 1
+INFO: 04-Aug-20 19:59:47: Standard SSDi: 0.208.
+INFO: 04-Aug-20 19:59:47: Pairwise Analyses: Average pairwise SSDi: 0.212.
+DEBUG: 04-Aug-20 19:59:47: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 19:59:47: Permutation Test: 2.5 and 97.5 percentile values: -0.164, 0.212.
+INFO: 04-Aug-20 19:59:47: Permutation Test: Empirical value: 0.212
+INFO: 04-Aug-20 19:59:47: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 19:59:47: Permutation Test: Permutation test P-value: <0.001.
+
+INFO: 04-Aug-20 19:59:47: Species: Hyperolius baumanni
+INFO: 04-Aug-20 19:59:47: Males: 15
+INFO: 04-Aug-20 19:59:47: Females: 1
+INFO: 04-Aug-20 19:59:47: Standard SSDi: 0.202.
+INFO: 04-Aug-20 19:59:47: Pairwise Analyses: Average pairwise SSDi: 0.205.
+DEBUG: 04-Aug-20 19:59:47: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 19:59:48: Permutation Test: 2.5 and 97.5 percentile values: -0.157, 0.205.
+INFO: 04-Aug-20 19:59:48: Permutation Test: Empirical value: 0.205
+INFO: 04-Aug-20 19:59:48: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 19:59:48: Permutation Test: Permutation test P-value: <0.001.
+
+INFO: 04-Aug-20 19:59:48: Species: Hyperolius benguellensis
+INFO: 04-Aug-20 19:59:48: Males: 23
+INFO: 04-Aug-20 19:59:48: Females: 3
+INFO: 04-Aug-20 19:59:48: Standard SSDi: 0.173.
+INFO: 04-Aug-20 19:59:48: Pairwise Analyses: Average pairwise SSDi: 0.183.
+DEBUG: 04-Aug-20 19:59:48: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 19:59:48: Permutation Test: 2.5 and 97.5 percentile values: -0.165, 0.108.
+INFO: 04-Aug-20 19:59:48: Permutation Test: Empirical value: 0.183
+INFO: 04-Aug-20 19:59:48: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 19:59:48: Permutation Test: Permutation test P-value: 0.008.
+
+INFO: 04-Aug-20 19:59:48: Species: Hyperolius bobirensis
+INFO: 04-Aug-20 19:59:48: Males: 24
+INFO: 04-Aug-20 19:59:48: Females: 8
+INFO: 04-Aug-20 19:59:48: Standard SSDi: 0.372.
+INFO: 04-Aug-20 19:59:48: Pairwise Analyses: Average pairwise SSDi: 0.374.
+DEBUG: 04-Aug-20 19:59:48: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 19:59:50: Permutation Test: 2.5 and 97.5 percentile values: -0.129, 0.143.
+INFO: 04-Aug-20 19:59:50: Permutation Test: Empirical value: 0.374
+INFO: 04-Aug-20 19:59:50: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 19:59:50: Permutation Test: Permutation test P-value: <0.001.
+
+INFO: 04-Aug-20 19:59:50: Species: Hyperolius bolifambae
+INFO: 04-Aug-20 19:59:50: Males: 33
+INFO: 04-Aug-20 19:59:50: Females: 10
+INFO: 04-Aug-20 19:59:50: Standard SSDi: 0.219.
+INFO: 04-Aug-20 19:59:50: Pairwise Analyses: Average pairwise SSDi: 0.221.
+DEBUG: 04-Aug-20 19:59:50: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 19:59:52: Permutation Test: 2.5 and 97.5 percentile values: -0.067, 0.079.
+INFO: 04-Aug-20 19:59:52: Permutation Test: Empirical value: 0.221
+INFO: 04-Aug-20 19:59:52: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 19:59:52: Permutation Test: Permutation test P-value: <0.001.
+
+INFO: 04-Aug-20 19:59:52: Species: Hyperolius burgessi
+INFO: 04-Aug-20 19:59:52: Males: 22
+INFO: 04-Aug-20 19:59:52: Females: 12
+INFO: 04-Aug-20 19:59:52: Standard SSDi: 0.279.
+INFO: 04-Aug-20 19:59:52: Pairwise Analyses: Average pairwise SSDi: 0.28.
+DEBUG: 04-Aug-20 19:59:52: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 19:59:54: Permutation Test: 2.5 and 97.5 percentile values: -0.099, 0.103.
+INFO: 04-Aug-20 19:59:54: Permutation Test: Empirical value: 0.28
+INFO: 04-Aug-20 19:59:54: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 19:59:54: Permutation Test: Permutation test P-value: <0.001.
+
+INFO: 04-Aug-20 19:59:54: Species: Hyperolius camerunensis
+INFO: 04-Aug-20 19:59:54: Males: 13
+INFO: 04-Aug-20 19:59:54: Females: 6
+INFO: 04-Aug-20 19:59:54: Standard SSDi: 0.248.
+INFO: 04-Aug-20 19:59:54: Pairwise Analyses: Average pairwise SSDi: 0.25.
+DEBUG: 04-Aug-20 19:59:54: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 19:59:55: Permutation Test: 2.5 and 97.5 percentile values: -0.125, 0.129.
+INFO: 04-Aug-20 19:59:55: Permutation Test: Empirical value: 0.25
+INFO: 04-Aug-20 19:59:55: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 19:59:55: Permutation Test: Permutation test P-value: <0.001.
+
+INFO: 04-Aug-20 19:59:55: Species: Hyperolius castaneus
+INFO: 04-Aug-20 19:59:55: Males: 43
+INFO: 04-Aug-20 19:59:55: Females: 3
+INFO: 04-Aug-20 19:59:55: Standard SSDi: 0.189.
+INFO: 04-Aug-20 19:59:55: Pairwise Analyses: Average pairwise SSDi: 0.189.
+DEBUG: 04-Aug-20 19:59:55: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 19:59:56: Permutation Test: 2.5 and 97.5 percentile values: -0.077, 0.093.
+INFO: 04-Aug-20 19:59:56: Permutation Test: Empirical value: 0.189
+INFO: 04-Aug-20 19:59:56: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 19:59:56: Permutation Test: Permutation test P-value: <0.001.
+
+INFO: 04-Aug-20 19:59:56: Species: Hyperolius chelaensis
+INFO: 04-Aug-20 19:59:56: Males: 1
+INFO: 04-Aug-20 19:59:56: Females: 1
+INFO: 04-Aug-20 19:59:56: Standard SSDi: 0.28
+
+INFO: 04-Aug-20 19:59:56: Species: Hyperolius chlorosteus
+INFO: 04-Aug-20 19:59:56: Males: 3
+INFO: 04-Aug-20 19:59:56: Females: 1
+INFO: 04-Aug-20 19:59:56: Standard SSDi: 0.003.
+INFO: 04-Aug-20 19:59:56: Pairwise Analyses: Average pairwise SSDi: 0.003.
+DEBUG: 04-Aug-20 19:59:56: Pairwise Analyses: One-sample t-test P-value: 0.908.
+INFO: 04-Aug-20 19:59:56: Permutation Test: 2.5 and 97.5 percentile values: -0.048, 0.057.
+INFO: 04-Aug-20 19:59:56: Permutation Test: Empirical value: 0.003
+INFO: 04-Aug-20 19:59:56: Permutation Test: Empirical value within the 2.5 and 97.5 percentiles.
+INFO: 04-Aug-20 19:59:56: Permutation Test: Permutation test P-value: 0.746.
+
+INFO: 04-Aug-20 19:59:56: Species: Hyperolius cinereus
+INFO: 04-Aug-20 19:59:56: Males: 1
+INFO: 04-Aug-20 19:59:56: Females: 1
+INFO: 04-Aug-20 19:59:56: Standard SSDi: 0.171
+
+INFO: 04-Aug-20 19:59:56: Species: Hyperolius cinnamomeoventris 2
+INFO: 04-Aug-20 19:59:56: Males: 35
+INFO: 04-Aug-20 19:59:56: Females: 7
+INFO: 04-Aug-20 19:59:56: Standard SSDi: 0.231.
+INFO: 04-Aug-20 19:59:56: Pairwise Analyses: Average pairwise SSDi: 0.237.
+DEBUG: 04-Aug-20 19:59:56: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 19:59:59: Permutation Test: 2.5 and 97.5 percentile values: -0.102, 0.11.
+INFO: 04-Aug-20 19:59:59: Permutation Test: Empirical value: 0.237
+INFO: 04-Aug-20 19:59:59: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 19:59:59: Permutation Test: Permutation test P-value: <0.001.
+
+INFO: 04-Aug-20 19:59:59: Species: Hyperolius concolor concolor
+INFO: 04-Aug-20 19:59:59: Males: 29
+INFO: 04-Aug-20 19:59:59: Females: 15
+INFO: 04-Aug-20 19:59:59: Standard SSDi: 0.246.
+INFO: 04-Aug-20 19:59:59: Pairwise Analyses: Average pairwise SSDi: 0.255.
+DEBUG: 04-Aug-20 19:59:59: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 20:00:02: Permutation Test: 2.5 and 97.5 percentile values: -0.09, 0.091.
+INFO: 04-Aug-20 20:00:02: Permutation Test: Empirical value: 0.255
+INFO: 04-Aug-20 20:00:02: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 20:00:02: Permutation Test: Permutation test P-value: <0.001.
+
+INFO: 04-Aug-20 20:00:02: Species: Hyperolius concolor guttatus
+INFO: 04-Aug-20 20:00:02: Males: 45
+INFO: 04-Aug-20 20:00:02: Females: 14
+INFO: 04-Aug-20 20:00:02: Standard SSDi: 0.237.
+INFO: 04-Aug-20 20:00:02: Pairwise Analyses: Average pairwise SSDi: 0.239.
+DEBUG: 04-Aug-20 20:00:02: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 20:00:06: Permutation Test: 2.5 and 97.5 percentile values: -0.07, 0.073.
+INFO: 04-Aug-20 20:00:06: Permutation Test: Empirical value: 0.239
+INFO: 04-Aug-20 20:00:06: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 20:00:06: Permutation Test: Permutation test P-value: <0.001.
+
+INFO: 04-Aug-20 20:00:06: Species: Hyperolius concolor ibadanensis
+INFO: 04-Aug-20 20:00:06: Males: 18
+INFO: 04-Aug-20 20:00:06: Females: 2
+INFO: 04-Aug-20 20:00:06: Standard SSDi: 0.191.
+INFO: 04-Aug-20 20:00:06: Pairwise Analyses: Average pairwise SSDi: 0.191.
+DEBUG: 04-Aug-20 20:00:06: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 20:00:07: Permutation Test: 2.5 and 97.5 percentile values: -0.068, 0.128.
+INFO: 04-Aug-20 20:00:07: Permutation Test: Empirical value: 0.191
+INFO: 04-Aug-20 20:00:07: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 20:00:07: Permutation Test: Permutation test P-value: <0.001.
+
+INFO: 04-Aug-20 20:00:07: Species: Hyperolius cystocandicans
+INFO: 04-Aug-20 20:00:07: Males: 24
+INFO: 04-Aug-20 20:00:07: Females: 3
+INFO: 04-Aug-20 20:00:07: Standard SSDi: 0.173.
+INFO: 04-Aug-20 20:00:07: Pairwise Analyses: Average pairwise SSDi: 0.177.
+DEBUG: 04-Aug-20 20:00:07: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 20:00:08: Permutation Test: 2.5 and 97.5 percentile values: -0.099, 0.102.
+INFO: 04-Aug-20 20:00:08: Permutation Test: Empirical value: 0.177
+INFO: 04-Aug-20 20:00:08: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 20:00:08: Permutation Test: Permutation test P-value: <0.001.
+
+INFO: 04-Aug-20 20:00:08: Species: Hyperolius davenporti
+INFO: 04-Aug-20 20:00:08: Males: 11
+INFO: 04-Aug-20 20:00:08: Females: 2
+INFO: 04-Aug-20 20:00:08: Standard SSDi: 0.431.
+INFO: 04-Aug-20 20:00:08: Pairwise Analyses: Average pairwise SSDi: 0.435.
+DEBUG: 04-Aug-20 20:00:08: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 20:00:08: Permutation Test: 2.5 and 97.5 percentile values: -0.152, 0.227.
+INFO: 04-Aug-20 20:00:08: Permutation Test: Empirical value: 0.435
+INFO: 04-Aug-20 20:00:08: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 20:00:08: Permutation Test: Permutation test P-value: <0.001.
+
+INFO: 04-Aug-20 20:00:08: Species: Hyperolius dintelmanni
+INFO: 04-Aug-20 20:00:08: Males: 16
+INFO: 04-Aug-20 20:00:08: Females: 4
+INFO: 04-Aug-20 20:00:08: Standard SSDi: 0.052.
+INFO: 04-Aug-20 20:00:08: Pairwise Analyses: Average pairwise SSDi: 0.052.
+DEBUG: 04-Aug-20 20:00:08: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 20:00:08: Permutation Test: 2.5 and 97.5 percentile values: -0.037, 0.041.
+INFO: 04-Aug-20 20:00:08: Permutation Test: Empirical value: 0.052
+INFO: 04-Aug-20 20:00:08: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 20:00:08: Permutation Test: Permutation test P-value: 0.006.
+
+INFO: 04-Aug-20 20:00:08: Species: Hyperolius discodactylus
+INFO: 04-Aug-20 20:00:08: Males: 25
+INFO: 04-Aug-20 20:00:08: Females: 8
+INFO: 04-Aug-20 20:00:08: Standard SSDi: 0.117.
+INFO: 04-Aug-20 20:00:08: Pairwise Analyses: Average pairwise SSDi: 0.121.
+DEBUG: 04-Aug-20 20:00:08: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 20:00:10: Permutation Test: 2.5 and 97.5 percentile values: -0.061, 0.062.
+INFO: 04-Aug-20 20:00:10: Permutation Test: Empirical value: 0.121
+INFO: 04-Aug-20 20:00:10: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 20:00:10: Permutation Test: Permutation test P-value: <0.001.
+
+INFO: 04-Aug-20 20:00:10: Species: Hyperolius drewesi
+INFO: 04-Aug-20 20:00:10: Males: 4
+INFO: 04-Aug-20 20:00:10: Females: 1
+INFO: 04-Aug-20 20:00:10: Standard SSDi: 0.112.
+INFO: 04-Aug-20 20:00:10: Pairwise Analyses: Average pairwise SSDi: 0.114.
+DEBUG: 04-Aug-20 20:00:10: Pairwise Analyses: One-sample t-test P-value: 0.012.
+INFO: 04-Aug-20 20:00:10: Permutation Test: 2.5 and 97.5 percentile values: -0.096, 0.114.
+INFO: 04-Aug-20 20:00:10: Permutation Test: Empirical value: 0.114
+INFO: 04-Aug-20 20:00:10: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 20:00:10: Permutation Test: Permutation test P-value: <0.001.
+
+INFO: 04-Aug-20 20:00:10: Species: Hyperolius endjami 2
+INFO: 04-Aug-20 20:00:10: Males: 2
+INFO: 04-Aug-20 20:00:10: Females: 2
+INFO: 04-Aug-20 20:00:10: Standard SSDi: 0.14.
+INFO: 04-Aug-20 20:00:10: Pairwise Analyses: Average pairwise SSDi: 0.14.
+DEBUG: 04-Aug-20 20:00:10: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 20:00:10: Permutation Test: 2.5 and 97.5 percentile values: -0.14, 0.14.
+INFO: 04-Aug-20 20:00:10: Permutation Test: Empirical value: 0.14
+INFO: 04-Aug-20 20:00:10: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 20:00:10: Permutation Test: Permutation test P-value: <0.001.
+
+INFO: 04-Aug-20 20:00:10: Species: Hyperolius friedemanni
+INFO: 04-Aug-20 20:00:10: Males: 0
+INFO: 04-Aug-20 20:00:10: Females: 1
+ERROR: 04-Aug-20 20:00:10: Species Hyperolius friedemanni does not have at least 1 M and 1 F, skipping calculations.
+
+INFO: 04-Aug-20 20:00:10: Species: Hyperolius frontalis
+INFO: 04-Aug-20 20:00:10: Males: 20
+INFO: 04-Aug-20 20:00:10: Females: 3
+INFO: 04-Aug-20 20:00:10: Standard SSDi: 0.089.
+INFO: 04-Aug-20 20:00:10: Pairwise Analyses: Average pairwise SSDi: 0.088.
+DEBUG: 04-Aug-20 20:00:10: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 20:00:11: Permutation Test: 2.5 and 97.5 percentile values: -0.058, 0.053.
+INFO: 04-Aug-20 20:00:11: Permutation Test: Empirical value: 0.088
+INFO: 04-Aug-20 20:00:11: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 20:00:11: Permutation Test: Permutation test P-value: 0.001.
+
+INFO: 04-Aug-20 20:00:11: Species: Hyperolius fusciventris burtoni
+INFO: 04-Aug-20 20:00:11: Males: 14
+INFO: 04-Aug-20 20:00:11: Females: 9
+INFO: 04-Aug-20 20:00:11: Standard SSDi: 0.262.
+INFO: 04-Aug-20 20:00:11: Pairwise Analyses: Average pairwise SSDi: 0.264.
+DEBUG: 04-Aug-20 20:00:11: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 20:00:12: Permutation Test: 2.5 and 97.5 percentile values: -0.124, 0.124.
+INFO: 04-Aug-20 20:00:12: Permutation Test: Empirical value: 0.264
+INFO: 04-Aug-20 20:00:12: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 20:00:12: Permutation Test: Permutation test P-value: <0.001.
+
+INFO: 04-Aug-20 20:00:12: Species: Hyperolius fusciventris ssp
+INFO: 04-Aug-20 20:00:12: Males: 20
+INFO: 04-Aug-20 20:00:12: Females: 3
+INFO: 04-Aug-20 20:00:12: Standard SSDi: 0.351.
+INFO: 04-Aug-20 20:00:12: Pairwise Analyses: Average pairwise SSDi: 0.352.
+DEBUG: 04-Aug-20 20:00:12: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 20:00:13: Permutation Test: 2.5 and 97.5 percentile values: -0.13, 0.199.
+INFO: 04-Aug-20 20:00:13: Permutation Test: Empirical value: 0.352
+INFO: 04-Aug-20 20:00:13: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 20:00:13: Permutation Test: Permutation test P-value: <0.001.
+
+INFO: 04-Aug-20 20:00:13: Species: Hyperolius guttulatus 1
+INFO: 04-Aug-20 20:00:13: Males: 2
+INFO: 04-Aug-20 20:00:13: Females: 1
+INFO: 04-Aug-20 20:00:13: Standard SSDi: 0.101.
+INFO: 04-Aug-20 20:00:13: Pairwise Analyses: Average pairwise SSDi: 0.102.
+DEBUG: 04-Aug-20 20:00:13: Pairwise Analyses: One-sample t-test P-value: 0.229.
+INFO: 04-Aug-20 20:00:13: Permutation Test: 2.5 and 97.5 percentile values: -0.106, 0.102.
+INFO: 04-Aug-20 20:00:13: Permutation Test: Empirical value: 0.102
+INFO: 04-Aug-20 20:00:13: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 20:00:13: Permutation Test: Permutation test P-value: 0.335.
+
+INFO: 04-Aug-20 20:00:13: Species: Hyperolius guttulatus 2
+INFO: 04-Aug-20 20:00:13: Males: 49
+INFO: 04-Aug-20 20:00:13: Females: 6
+INFO: 04-Aug-20 20:00:13: Standard SSDi: 0.065.
+INFO: 04-Aug-20 20:00:13: Pairwise Analyses: Average pairwise SSDi: 0.062.
+DEBUG: 04-Aug-20 20:00:13: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 20:00:15: Permutation Test: 2.5 and 97.5 percentile values: -0.077, 0.079.
+INFO: 04-Aug-20 20:00:15: Permutation Test: Empirical value: 0.062
+INFO: 04-Aug-20 20:00:15: Permutation Test: Empirical value within the 2.5 and 97.5 percentiles.
+INFO: 04-Aug-20 20:00:15: Permutation Test: Permutation test P-value: 0.118.
+
+INFO: 04-Aug-20 20:00:15: Species: Hyperolius horstockii
+INFO: 04-Aug-20 20:00:15: Males: 3
+INFO: 04-Aug-20 20:00:15: Females: 6
+INFO: 04-Aug-20 20:00:15: Standard SSDi: 0.006.
+INFO: 04-Aug-20 20:00:15: Pairwise Analyses: Average pairwise SSDi: 0.007.
+DEBUG: 04-Aug-20 20:00:15: Pairwise Analyses: One-sample t-test P-value: 0.837.
+INFO: 04-Aug-20 20:00:15: Permutation Test: 2.5 and 97.5 percentile values: -0.134, 0.139.
+INFO: 04-Aug-20 20:00:15: Permutation Test: Empirical value: 0.007
+INFO: 04-Aug-20 20:00:15: Permutation Test: Empirical value within the 2.5 and 97.5 percentiles.
+INFO: 04-Aug-20 20:00:15: Permutation Test: Permutation test P-value: 0.895.
+
+INFO: 04-Aug-20 20:00:15: Species: Hyperolius howelli
+INFO: 04-Aug-20 20:00:15: Males: 2
+INFO: 04-Aug-20 20:00:15: Females: 1
+INFO: 04-Aug-20 20:00:15: Standard SSDi: -0.084.
+INFO: 04-Aug-20 20:00:15: Pairwise Analyses: Average pairwise SSDi: -0.084.
+DEBUG: 04-Aug-20 20:00:15: Pairwise Analyses: One-sample t-test P-value: 0.156.
+INFO: 04-Aug-20 20:00:16: Permutation Test: 2.5 and 97.5 percentile values: -0.084, 0.072.
+INFO: 04-Aug-20 20:00:16: Permutation Test: Empirical value: -0.084
+INFO: 04-Aug-20 20:00:16: Permutation Test: Empirical value lies outside the 2.5 percentile.
+INFO: 04-Aug-20 20:00:16: Permutation Test: Permutation test P-value: <0.001.
+
+INFO: 04-Aug-20 20:00:16: Species: Hyperolius igbettensis
+INFO: 04-Aug-20 20:00:16: Males: 0
+INFO: 04-Aug-20 20:00:16: Females: 1
+ERROR: 04-Aug-20 20:00:16: Species Hyperolius igbettensis does not have at least 1 M and 1 F, skipping calculations.
+
+INFO: 04-Aug-20 20:00:16: Species: Hyperolius inyangae
+INFO: 04-Aug-20 20:00:16: Males: 3
+INFO: 04-Aug-20 20:00:16: Females: 1
+INFO: 04-Aug-20 20:00:16: Standard SSDi: 0.075.
+INFO: 04-Aug-20 20:00:16: Pairwise Analyses: Average pairwise SSDi: 0.076.
+DEBUG: 04-Aug-20 20:00:16: Pairwise Analyses: One-sample t-test P-value: 0.213.
+INFO: 04-Aug-20 20:00:16: Permutation Test: 2.5 and 97.5 percentile values: -0.105, 0.083.
+INFO: 04-Aug-20 20:00:16: Permutation Test: Empirical value: 0.076
+INFO: 04-Aug-20 20:00:16: Permutation Test: Empirical value within the 2.5 and 97.5 percentiles.
+INFO: 04-Aug-20 20:00:16: Permutation Test: Permutation test P-value: 0.496.
+
+INFO: 04-Aug-20 20:00:16: Species: Hyperolius jackie
+INFO: 04-Aug-20 20:00:16: Males: 8
+INFO: 04-Aug-20 20:00:16: Females: 0
+ERROR: 04-Aug-20 20:00:16: Species Hyperolius jackie does not have at least 1 M and 1 F, skipping calculations.
+
+INFO: 04-Aug-20 20:00:16: Species: Hyperolius jacobseni
+INFO: 04-Aug-20 20:00:16: Males: 1
+INFO: 04-Aug-20 20:00:16: Females: 1
+INFO: 04-Aug-20 20:00:16: Standard SSDi: -0.092
+
+INFO: 04-Aug-20 20:00:16: Species: Hyperolius kachalolae
+INFO: 04-Aug-20 20:00:16: Males: 25
+INFO: 04-Aug-20 20:00:16: Females: 3
+INFO: 04-Aug-20 20:00:16: Standard SSDi: 0.114.
+INFO: 04-Aug-20 20:00:16: Pairwise Analyses: Average pairwise SSDi: 0.115.
+DEBUG: 04-Aug-20 20:00:16: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 20:00:16: Permutation Test: 2.5 and 97.5 percentile values: -0.066, 0.071.
+INFO: 04-Aug-20 20:00:16: Permutation Test: Empirical value: 0.115
+INFO: 04-Aug-20 20:00:16: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 20:00:16: Permutation Test: Permutation test P-value: 0.002.
+
+INFO: 04-Aug-20 20:00:16: Species: Hyperolius kivuensis 1
+INFO: 04-Aug-20 20:00:16: Males: 13
+INFO: 04-Aug-20 20:00:16: Females: 5
+INFO: 04-Aug-20 20:00:16: Standard SSDi: 0.188.
+INFO: 04-Aug-20 20:00:16: Pairwise Analyses: Average pairwise SSDi: 0.194.
+DEBUG: 04-Aug-20 20:00:16: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 20:00:17: Permutation Test: 2.5 and 97.5 percentile values: -0.119, 0.123.
+INFO: 04-Aug-20 20:00:17: Permutation Test: Empirical value: 0.194
+INFO: 04-Aug-20 20:00:17: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 20:00:17: Permutation Test: Permutation test P-value: <0.001.
+
+INFO: 04-Aug-20 20:00:17: Species: Hyperolius kivuensis 3
+INFO: 04-Aug-20 20:00:17: Males: 8
+INFO: 04-Aug-20 20:00:17: Females: 1
+INFO: 04-Aug-20 20:00:17: Standard SSDi: 0.121.
+INFO: 04-Aug-20 20:00:17: Pairwise Analyses: Average pairwise SSDi: 0.122.
+DEBUG: 04-Aug-20 20:00:17: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 20:00:17: Permutation Test: 2.5 and 97.5 percentile values: -0.105, 0.122.
+INFO: 04-Aug-20 20:00:17: Permutation Test: Empirical value: 0.122
+INFO: 04-Aug-20 20:00:17: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 20:00:17: Permutation Test: Permutation test P-value: <0.001.
+
+INFO: 04-Aug-20 20:00:17: Species: Hyperolius koehleri
+INFO: 04-Aug-20 20:00:17: Males: 2
+INFO: 04-Aug-20 20:00:17: Females: 1
+INFO: 04-Aug-20 20:00:17: Standard SSDi: 0.007.
+INFO: 04-Aug-20 20:00:17: Pairwise Analyses: Average pairwise SSDi: 0.005.
+DEBUG: 04-Aug-20 20:00:17: Pairwise Analyses: One-sample t-test P-value: 0.677.
+INFO: 04-Aug-20 20:00:18: Permutation Test: 2.5 and 97.5 percentile values: -0.016, 0.011.
+INFO: 04-Aug-20 20:00:18: Permutation Test: Empirical value: 0.005
+INFO: 04-Aug-20 20:00:18: Permutation Test: Empirical value within the 2.5 and 97.5 percentiles.
+INFO: 04-Aug-20 20:00:18: Permutation Test: Permutation test P-value: 0.655.
+
+INFO: 04-Aug-20 20:00:18: Species: Hyperolius lamottei
+INFO: 04-Aug-20 20:00:18: Males: 6
+INFO: 04-Aug-20 20:00:18: Females: 27
+INFO: 04-Aug-20 20:00:18: Standard SSDi: 0.09.
+INFO: 04-Aug-20 20:00:18: Pairwise Analyses: Average pairwise SSDi: 0.093.
+DEBUG: 04-Aug-20 20:00:18: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 20:00:19: Permutation Test: 2.5 and 97.5 percentile values: -0.054, 0.053.
+INFO: 04-Aug-20 20:00:19: Permutation Test: Empirical value: 0.093
+INFO: 04-Aug-20 20:00:19: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 20:00:19: Permutation Test: Permutation test P-value: <0.001.
+
+INFO: 04-Aug-20 20:00:19: Species: Hyperolius langi
+INFO: 04-Aug-20 20:00:19: Males: 10
+INFO: 04-Aug-20 20:00:19: Females: 1
+INFO: 04-Aug-20 20:00:19: Standard SSDi: 0.303.
+INFO: 04-Aug-20 20:00:19: Pairwise Analyses: Average pairwise SSDi: 0.303.
+DEBUG: 04-Aug-20 20:00:19: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 20:00:19: Permutation Test: 2.5 and 97.5 percentile values: -0.109, 0.303.
+INFO: 04-Aug-20 20:00:19: Permutation Test: Empirical value: 0.303
+INFO: 04-Aug-20 20:00:19: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 20:00:19: Permutation Test: Permutation test P-value: <0.001.
+
+INFO: 04-Aug-20 20:00:19: Species: Hyperolius lateralis
+INFO: 04-Aug-20 20:00:19: Males: 38
+INFO: 04-Aug-20 20:00:19: Females: 6
+INFO: 04-Aug-20 20:00:19: Standard SSDi: 0.16.
+INFO: 04-Aug-20 20:00:19: Pairwise Analyses: Average pairwise SSDi: 0.165.
+DEBUG: 04-Aug-20 20:00:19: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 20:00:21: Permutation Test: 2.5 and 97.5 percentile values: -0.06, 0.07.
+INFO: 04-Aug-20 20:00:21: Permutation Test: Empirical value: 0.165
+INFO: 04-Aug-20 20:00:21: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 20:00:21: Permutation Test: Permutation test P-value: <0.001.
+
+INFO: 04-Aug-20 20:00:21: Species: Hyperolius lupiroensis
+INFO: 04-Aug-20 20:00:21: Males: 0
+INFO: 04-Aug-20 20:00:21: Females: 1
+ERROR: 04-Aug-20 20:00:21: Species Hyperolius lupiroensis does not have at least 1 M and 1 F, skipping calculations.
+
+INFO: 04-Aug-20 20:00:21: Species: Hyperolius mariae
+INFO: 04-Aug-20 20:00:21: Males: 11
+INFO: 04-Aug-20 20:00:21: Females: 5
+INFO: 04-Aug-20 20:00:21: Standard SSDi: 0.056.
+INFO: 04-Aug-20 20:00:21: Pairwise Analyses: Average pairwise SSDi: 0.057.
+DEBUG: 04-Aug-20 20:00:21: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 20:00:22: Permutation Test: 2.5 and 97.5 percentile values: -0.07, 0.061.
+INFO: 04-Aug-20 20:00:22: Permutation Test: Empirical value: 0.057
+INFO: 04-Aug-20 20:00:22: Permutation Test: Empirical value within the 2.5 and 97.5 percentiles.
+INFO: 04-Aug-20 20:00:22: Permutation Test: Permutation test P-value: 0.093.
+
+INFO: 04-Aug-20 20:00:22: Species: Hyperolius mariae 2
+INFO: 04-Aug-20 20:00:22: Males: 4
+INFO: 04-Aug-20 20:00:22: Females: 3
+INFO: 04-Aug-20 20:00:22: Standard SSDi: -0.004.
+INFO: 04-Aug-20 20:00:22: Pairwise Analyses: Average pairwise SSDi: 0.001.
+DEBUG: 04-Aug-20 20:00:22: Pairwise Analyses: One-sample t-test P-value: 0.968.
+INFO: 04-Aug-20 20:00:22: Permutation Test: 2.5 and 97.5 percentile values: -0.092, 0.08.
+INFO: 04-Aug-20 20:00:22: Permutation Test: Empirical value: 0.001
+INFO: 04-Aug-20 20:00:22: Permutation Test: Empirical value within the 2.5 and 97.5 percentiles.
+INFO: 04-Aug-20 20:00:22: Permutation Test: Permutation test P-value: 0.97.
+
+INFO: 04-Aug-20 20:00:22: Species: Hyperolius marmoratus argentovittis
+INFO: 04-Aug-20 20:00:22: Males: 1
+INFO: 04-Aug-20 20:00:22: Females: 1
+INFO: 04-Aug-20 20:00:22: Standard SSDi: -0.074
+
+INFO: 04-Aug-20 20:00:22: Species: Hyperolius marmoratus marmoratus
+INFO: 04-Aug-20 20:00:22: Males: 1
+INFO: 04-Aug-20 20:00:22: Females: 2
+INFO: 04-Aug-20 20:00:22: Standard SSDi: -0.032.
+INFO: 04-Aug-20 20:00:22: Pairwise Analyses: Average pairwise SSDi: -0.034.
+DEBUG: 04-Aug-20 20:00:22: Pairwise Analyses: One-sample t-test P-value: 0.609.
+INFO: 04-Aug-20 20:00:22: Permutation Test: 2.5 and 97.5 percentile values: -0.055, 0.088.
+INFO: 04-Aug-20 20:00:22: Permutation Test: Empirical value: -0.034
+INFO: 04-Aug-20 20:00:22: Permutation Test: Empirical value within the 2.5 and 97.5 percentiles.
+INFO: 04-Aug-20 20:00:22: Permutation Test: Permutation test P-value: 0.66.
+
+INFO: 04-Aug-20 20:00:22: Species: Hyperolius marmoratus verrucosus
+INFO: 04-Aug-20 20:00:22: Males: 2
+INFO: 04-Aug-20 20:00:22: Females: 2
+INFO: 04-Aug-20 20:00:22: Standard SSDi: -0.049.
+INFO: 04-Aug-20 20:00:22: Pairwise Analyses: Average pairwise SSDi: -0.052.
+DEBUG: 04-Aug-20 20:00:22: Pairwise Analyses: One-sample t-test P-value: 0.098.
+INFO: 04-Aug-20 20:00:22: Permutation Test: 2.5 and 97.5 percentile values: -0.052, 0.052.
+INFO: 04-Aug-20 20:00:22: Permutation Test: Empirical value: -0.052
+INFO: 04-Aug-20 20:00:22: Permutation Test: Empirical value lies outside the 2.5 percentile.
+INFO: 04-Aug-20 20:00:22: Permutation Test: Permutation test P-value: <0.001.
+
+INFO: 04-Aug-20 20:00:22: Species: Hyperolius minutissimus
+INFO: 04-Aug-20 20:00:22: Males: 13
+INFO: 04-Aug-20 20:00:22: Females: 0
+ERROR: 04-Aug-20 20:00:22: Species Hyperolius minutissimus does not have at least 1 M and 1 F, skipping calculations.
+
+INFO: 04-Aug-20 20:00:22: Species: Hyperolius mitchelli
+INFO: 04-Aug-20 20:00:22: Males: 36
+INFO: 04-Aug-20 20:00:22: Females: 3
+INFO: 04-Aug-20 20:00:22: Standard SSDi: 0.079.
+INFO: 04-Aug-20 20:00:22: Pairwise Analyses: Average pairwise SSDi: 0.092.
+DEBUG: 04-Aug-20 20:00:22: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 20:00:23: Permutation Test: 2.5 and 97.5 percentile values: -0.131, 0.118.
+INFO: 04-Aug-20 20:00:23: Permutation Test: Empirical value: 0.092
+INFO: 04-Aug-20 20:00:23: Permutation Test: Empirical value within the 2.5 and 97.5 percentiles.
+INFO: 04-Aug-20 20:00:23: Permutation Test: Permutation test P-value: 0.159.
+
+INFO: 04-Aug-20 20:00:23: Species: Hyperolius molleri
+INFO: 04-Aug-20 20:00:23: Males: 29
+INFO: 04-Aug-20 20:00:23: Females: 3
+INFO: 04-Aug-20 20:00:23: Standard SSDi: 0.287.
+INFO: 04-Aug-20 20:00:23: Pairwise Analyses: Average pairwise SSDi: 0.294.
+DEBUG: 04-Aug-20 20:00:23: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 20:00:24: Permutation Test: 2.5 and 97.5 percentile values: -0.133, 0.169.
+INFO: 04-Aug-20 20:00:24: Permutation Test: Empirical value: 0.294
+INFO: 04-Aug-20 20:00:24: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 20:00:24: Permutation Test: Permutation test P-value: <0.001.
+
+INFO: 04-Aug-20 20:00:24: Species: Hyperolius montanus
+INFO: 04-Aug-20 20:00:24: Males: 5
+INFO: 04-Aug-20 20:00:24: Females: 3
+INFO: 04-Aug-20 20:00:24: Standard SSDi: 0.315.
+INFO: 04-Aug-20 20:00:24: Pairwise Analyses: Average pairwise SSDi: 0.319.
+DEBUG: 04-Aug-20 20:00:24: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 20:00:24: Permutation Test: 2.5 and 97.5 percentile values: -0.225, 0.225.
+INFO: 04-Aug-20 20:00:24: Permutation Test: Empirical value: 0.319
+INFO: 04-Aug-20 20:00:24: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 20:00:24: Permutation Test: Permutation test P-value: <0.001.
+
+INFO: 04-Aug-20 20:00:24: Species: Hyperolius mosaicus
+INFO: 04-Aug-20 20:00:24: Males: 9
+INFO: 04-Aug-20 20:00:24: Females: 1
+INFO: 04-Aug-20 20:00:24: Standard SSDi: 0.189.
+INFO: 04-Aug-20 20:00:24: Pairwise Analyses: Average pairwise SSDi: 0.189.
+DEBUG: 04-Aug-20 20:00:24: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 20:00:25: Permutation Test: 2.5 and 97.5 percentile values: -0.068, 0.189.
+INFO: 04-Aug-20 20:00:25: Permutation Test: Empirical value: 0.189
+INFO: 04-Aug-20 20:00:25: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 20:00:25: Permutation Test: Permutation test P-value: <0.001.
+
+INFO: 04-Aug-20 20:00:25: Species: Hyperolius nasicus
+INFO: 04-Aug-20 20:00:25: Males: 1
+INFO: 04-Aug-20 20:00:25: Females: 0
+ERROR: 04-Aug-20 20:00:25: Species Hyperolius nasicus does not have at least 1 M and 1 F, skipping calculations.
+
+INFO: 04-Aug-20 20:00:25: Species: Hyperolius nasutus
+INFO: 04-Aug-20 20:00:25: Males: 16
+INFO: 04-Aug-20 20:00:25: Females: 7
+INFO: 04-Aug-20 20:00:25: Standard SSDi: 0.026.
+INFO: 04-Aug-20 20:00:25: Pairwise Analyses: Average pairwise SSDi: 0.035.
+DEBUG: 04-Aug-20 20:00:25: Pairwise Analyses: One-sample t-test P-value: 0.008.
+INFO: 04-Aug-20 20:00:26: Permutation Test: 2.5 and 97.5 percentile values: -0.094, 0.094.
+INFO: 04-Aug-20 20:00:26: Permutation Test: Empirical value: 0.035
+INFO: 04-Aug-20 20:00:26: Permutation Test: Empirical value within the 2.5 and 97.5 percentiles.
+INFO: 04-Aug-20 20:00:26: Permutation Test: Permutation test P-value: 0.47.
+
+INFO: 04-Aug-20 20:00:26: Species: Hyperolius nitidulus 1
+INFO: 04-Aug-20 20:00:26: Males: 22
+INFO: 04-Aug-20 20:00:26: Females: 2
+INFO: 04-Aug-20 20:00:26: Standard SSDi: 0.149.
+INFO: 04-Aug-20 20:00:26: Pairwise Analyses: Average pairwise SSDi: 0.152.
+DEBUG: 04-Aug-20 20:00:26: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 20:00:26: Permutation Test: 2.5 and 97.5 percentile values: -0.086, 0.104.
+INFO: 04-Aug-20 20:00:26: Permutation Test: Empirical value: 0.152
+INFO: 04-Aug-20 20:00:26: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 20:00:26: Permutation Test: Permutation test P-value: <0.001.
+
+INFO: 04-Aug-20 20:00:26: Species: Hyperolius nitidulus 2
+INFO: 04-Aug-20 20:00:26: Males: 22
+INFO: 04-Aug-20 20:00:26: Females: 11
+INFO: 04-Aug-20 20:00:26: Standard SSDi: 0.017.
+INFO: 04-Aug-20 20:00:26: Pairwise Analyses: Average pairwise SSDi: 0.023.
+DEBUG: 04-Aug-20 20:00:26: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 20:00:28: Permutation Test: 2.5 and 97.5 percentile values: -0.051, 0.049.
+INFO: 04-Aug-20 20:00:28: Permutation Test: Empirical value: 0.023
+INFO: 04-Aug-20 20:00:28: Permutation Test: Empirical value within the 2.5 and 97.5 percentiles.
+INFO: 04-Aug-20 20:00:28: Permutation Test: Permutation test P-value: 0.366.
+
+INFO: 04-Aug-20 20:00:28: Species: Hyperolius occidentalis
+INFO: 04-Aug-20 20:00:28: Males: 6
+INFO: 04-Aug-20 20:00:28: Females: 5
+INFO: 04-Aug-20 20:00:28: Standard SSDi: 0.216.
+INFO: 04-Aug-20 20:00:28: Pairwise Analyses: Average pairwise SSDi: 0.221.
+DEBUG: 04-Aug-20 20:00:28: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 20:00:28: Permutation Test: 2.5 and 97.5 percentile values: -0.151, 0.157.
+INFO: 04-Aug-20 20:00:28: Permutation Test: Empirical value: 0.221
+INFO: 04-Aug-20 20:00:28: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 20:00:28: Permutation Test: Permutation test P-value: <0.001.
+
+INFO: 04-Aug-20 20:00:28: Species: Hyperolius ocellatus ocellatus
+INFO: 04-Aug-20 20:00:28: Males: 31
+INFO: 04-Aug-20 20:00:28: Females: 15
+INFO: 04-Aug-20 20:00:28: Standard SSDi: 0.237.
+INFO: 04-Aug-20 20:00:28: Pairwise Analyses: Average pairwise SSDi: 0.24.
+DEBUG: 04-Aug-20 20:00:28: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 20:00:32: Permutation Test: 2.5 and 97.5 percentile values: -0.083, 0.089.
+INFO: 04-Aug-20 20:00:32: Permutation Test: Empirical value: 0.24
+INFO: 04-Aug-20 20:00:32: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 20:00:32: Permutation Test: Permutation test P-value: <0.001.
+
+INFO: 04-Aug-20 20:00:32: Species: Hyperolius ocellatus purpurescens
+INFO: 04-Aug-20 20:00:32: Males: 74
+INFO: 04-Aug-20 20:00:32: Females: 19
+INFO: 04-Aug-20 20:00:32: Standard SSDi: 0.22.
+INFO: 04-Aug-20 20:00:32: Pairwise Analyses: Average pairwise SSDi: 0.217.
+DEBUG: 04-Aug-20 20:00:32: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 20:00:42: Permutation Test: 2.5 and 97.5 percentile values: -0.047, 0.052.
+INFO: 04-Aug-20 20:00:42: Permutation Test: Empirical value: 0.217
+INFO: 04-Aug-20 20:00:42: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 20:00:42: Permutation Test: Permutation test P-value: <0.001.
+
+INFO: 04-Aug-20 20:00:42: Species: Hyperolius olivaceus
+INFO: 04-Aug-20 20:00:42: Males: 18
+INFO: 04-Aug-20 20:00:42: Females: 3
+INFO: 04-Aug-20 20:00:42: Standard SSDi: 0.15.
+INFO: 04-Aug-20 20:00:42: Pairwise Analyses: Average pairwise SSDi: 0.153.
+DEBUG: 04-Aug-20 20:00:42: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 20:00:42: Permutation Test: 2.5 and 97.5 percentile values: -0.094, 0.106.
+INFO: 04-Aug-20 20:00:42: Permutation Test: Empirical value: 0.153
+INFO: 04-Aug-20 20:00:42: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 20:00:42: Permutation Test: Permutation test P-value: 0.002.
+
+INFO: 04-Aug-20 20:00:42: Species: Hyperolius orkarkarri
+INFO: 04-Aug-20 20:00:42: Males: 3
+INFO: 04-Aug-20 20:00:42: Females: 0
+ERROR: 04-Aug-20 20:00:42: Species Hyperolius orkarkarri does not have at least 1 M and 1 F, skipping calculations.
+
+INFO: 04-Aug-20 20:00:42: Species: Hyperolius parallelus alborufus
+INFO: 04-Aug-20 20:00:42: Males: 16
+INFO: 04-Aug-20 20:00:42: Females: 1
+INFO: 04-Aug-20 20:00:42: Standard SSDi: -0.01.
+INFO: 04-Aug-20 20:00:42: Pairwise Analyses: Average pairwise SSDi: -0.008.
+DEBUG: 04-Aug-20 20:00:42: Pairwise Analyses: One-sample t-test P-value: 0.656.
+INFO: 04-Aug-20 20:00:43: Permutation Test: 2.5 and 97.5 percentile values: -0.106, 0.128.
+INFO: 04-Aug-20 20:00:43: Permutation Test: Empirical value: -0.008
+INFO: 04-Aug-20 20:00:43: Permutation Test: Empirical value within the 2.5 and 97.5 percentiles.
+INFO: 04-Aug-20 20:00:43: Permutation Test: Permutation test P-value: 0.828.
+
+INFO: 04-Aug-20 20:00:43: Species: Hyperolius parallelus parallelus
+INFO: 04-Aug-20 20:00:43: Males: 57
+INFO: 04-Aug-20 20:00:43: Females: 10
+INFO: 04-Aug-20 20:00:43: Standard SSDi: -0.004.
+INFO: 04-Aug-20 20:00:43: Pairwise Analyses: Average pairwise SSDi: -0.007.
+DEBUG: 04-Aug-20 20:00:43: Pairwise Analyses: One-sample t-test P-value: 0.374.
+INFO: 04-Aug-20 20:00:47: Permutation Test: 2.5 and 97.5 percentile values: -0.096, 0.083.
+INFO: 04-Aug-20 20:00:47: Permutation Test: Empirical value: -0.007
+INFO: 04-Aug-20 20:00:47: Permutation Test: Empirical value within the 2.5 and 97.5 percentiles.
+INFO: 04-Aug-20 20:00:47: Permutation Test: Permutation test P-value: 0.875.
+
+INFO: 04-Aug-20 20:00:47: Species: Hyperolius parallelus pyrrhodictyon
+INFO: 04-Aug-20 20:00:47: Males: 2
+INFO: 04-Aug-20 20:00:47: Females: 1
+INFO: 04-Aug-20 20:00:47: Standard SSDi: -0.01.
+INFO: 04-Aug-20 20:00:47: Pairwise Analyses: Average pairwise SSDi: -0.007.
+DEBUG: 04-Aug-20 20:00:47: Pairwise Analyses: One-sample t-test P-value: 0.878.
+INFO: 04-Aug-20 20:00:47: Permutation Test: 2.5 and 97.5 percentile values: -0.054, 0.062.
+INFO: 04-Aug-20 20:00:47: Permutation Test: Empirical value: -0.007
+INFO: 04-Aug-20 20:00:47: Permutation Test: Empirical value within the 2.5 and 97.5 percentiles.
+INFO: 04-Aug-20 20:00:47: Permutation Test: Permutation test P-value: 0.669.
+
+INFO: 04-Aug-20 20:00:47: Species: Hyperolius pardalis
+INFO: 04-Aug-20 20:00:47: Males: 6
+INFO: 04-Aug-20 20:00:47: Females: 3
+INFO: 04-Aug-20 20:00:47: Standard SSDi: 0.216.
+INFO: 04-Aug-20 20:00:47: Pairwise Analyses: Average pairwise SSDi: 0.217.
+DEBUG: 04-Aug-20 20:00:47: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 20:00:47: Permutation Test: 2.5 and 97.5 percentile values: -0.156, 0.173.
+INFO: 04-Aug-20 20:00:47: Permutation Test: Empirical value: 0.217
+INFO: 04-Aug-20 20:00:47: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 20:00:47: Permutation Test: Permutation test P-value: <0.001.
+
+INFO: 04-Aug-20 20:00:47: Species: Hyperolius parkeri
+INFO: 04-Aug-20 20:00:47: Males: 15
+INFO: 04-Aug-20 20:00:47: Females: 5
+INFO: 04-Aug-20 20:00:47: Standard SSDi: -0.073.
+INFO: 04-Aug-20 20:00:47: Pairwise Analyses: Average pairwise SSDi: -0.079.
+DEBUG: 04-Aug-20 20:00:47: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 20:00:48: Permutation Test: 2.5 and 97.5 percentile values: -0.081, 0.082.
+INFO: 04-Aug-20 20:00:48: Permutation Test: Empirical value: -0.079
+INFO: 04-Aug-20 20:00:48: Permutation Test: Empirical value within the 2.5 and 97.5 percentiles.
+INFO: 04-Aug-20 20:00:48: Permutation Test: Permutation test P-value: 0.056.
+
+INFO: 04-Aug-20 20:00:48: Species: Hyperolius phantasticus
+INFO: 04-Aug-20 20:00:48: Males: 12
+INFO: 04-Aug-20 20:00:48: Females: 3
+INFO: 04-Aug-20 20:00:48: Standard SSDi: 0.179.
+INFO: 04-Aug-20 20:00:48: Pairwise Analyses: Average pairwise SSDi: 0.194.
+DEBUG: 04-Aug-20 20:00:48: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 20:00:48: Permutation Test: 2.5 and 97.5 percentile values: -0.164, 0.159.
+INFO: 04-Aug-20 20:00:48: Permutation Test: Empirical value: 0.194
+INFO: 04-Aug-20 20:00:48: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 20:00:48: Permutation Test: Permutation test P-value: 0.015.
+
+INFO: 04-Aug-20 20:00:48: Species: Hyperolius pickersgilli
+INFO: 04-Aug-20 20:00:48: Males: 2
+INFO: 04-Aug-20 20:00:48: Females: 0
+ERROR: 04-Aug-20 20:00:48: Species Hyperolius pickersgilli does not have at least 1 M and 1 F, skipping calculations.
+
+INFO: 04-Aug-20 20:00:48: Species: Hyperolius picturatus
+INFO: 04-Aug-20 20:00:48: Males: 16
+INFO: 04-Aug-20 20:00:48: Females: 8
+INFO: 04-Aug-20 20:00:48: Standard SSDi: 0.14.
+INFO: 04-Aug-20 20:00:48: Pairwise Analyses: Average pairwise SSDi: 0.138.
+DEBUG: 04-Aug-20 20:00:48: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 20:00:50: Permutation Test: 2.5 and 97.5 percentile values: -0.071, 0.077.
+INFO: 04-Aug-20 20:00:50: Permutation Test: Empirical value: 0.138
+INFO: 04-Aug-20 20:00:50: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 20:00:50: Permutation Test: Permutation test P-value: <0.001.
+
+INFO: 04-Aug-20 20:00:50: Species: Hyperolius pictus
+INFO: 04-Aug-20 20:00:50: Males: 1
+INFO: 04-Aug-20 20:00:50: Females: 1
+INFO: 04-Aug-20 20:00:50: Standard SSDi: 0.31
+
+INFO: 04-Aug-20 20:00:50: Species: Hyperolius platyceps
+INFO: 04-Aug-20 20:00:50: Males: 2
+INFO: 04-Aug-20 20:00:50: Females: 2
+INFO: 04-Aug-20 20:00:50: Standard SSDi: 0.201.
+INFO: 04-Aug-20 20:00:50: Pairwise Analyses: Average pairwise SSDi: 0.203.
+DEBUG: 04-Aug-20 20:00:50: Pairwise Analyses: One-sample t-test P-value: 0.021.
+INFO: 04-Aug-20 20:00:50: Permutation Test: 2.5 and 97.5 percentile values: -0.204, 0.204.
+INFO: 04-Aug-20 20:00:50: Permutation Test: Empirical value: 0.203
+INFO: 04-Aug-20 20:00:50: Permutation Test: Empirical value within the 2.5 and 97.5 percentiles.
+INFO: 04-Aug-20 20:00:50: Permutation Test: Permutation test P-value: 0.208.
+
+INFO: 04-Aug-20 20:00:50: Species: Hyperolius poweri
+INFO: 04-Aug-20 20:00:50: Males: 2
+INFO: 04-Aug-20 20:00:50: Females: 0
+ERROR: 04-Aug-20 20:00:50: Species Hyperolius poweri does not have at least 1 M and 1 F, skipping calculations.
+
+INFO: 04-Aug-20 20:00:50: Species: Hyperolius pusillus
+INFO: 04-Aug-20 20:00:50: Males: 18
+INFO: 04-Aug-20 20:00:50: Females: 7
+INFO: 04-Aug-20 20:00:50: Standard SSDi: 0.005.
+INFO: 04-Aug-20 20:00:50: Pairwise Analyses: Average pairwise SSDi: 0.004.
+DEBUG: 04-Aug-20 20:00:50: Pairwise Analyses: One-sample t-test P-value: 0.334.
+INFO: 04-Aug-20 20:00:51: Permutation Test: 2.5 and 97.5 percentile values: -0.032, 0.034.
+INFO: 04-Aug-20 20:00:51: Permutation Test: Empirical value: 0.004
+INFO: 04-Aug-20 20:00:51: Permutation Test: Empirical value within the 2.5 and 97.5 percentiles.
+INFO: 04-Aug-20 20:00:51: Permutation Test: Permutation test P-value: 0.805.
+
+INFO: 04-Aug-20 20:00:51: Species: Hyperolius quinquevittatus
+INFO: 04-Aug-20 20:00:51: Males: 27
+INFO: 04-Aug-20 20:00:51: Females: 2
+INFO: 04-Aug-20 20:00:51: Standard SSDi: 0.264.
+INFO: 04-Aug-20 20:00:51: Pairwise Analyses: Average pairwise SSDi: 0.267.
+DEBUG: 04-Aug-20 20:00:51: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 20:00:51: Permutation Test: 2.5 and 97.5 percentile values: -0.13, 0.179.
+INFO: 04-Aug-20 20:00:51: Permutation Test: Empirical value: 0.267
+INFO: 04-Aug-20 20:00:51: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 20:00:51: Permutation Test: Permutation test P-value: <0.001.
+
+INFO: 04-Aug-20 20:00:51: Species: Hyperolius raymondii
+INFO: 04-Aug-20 20:00:51: Males: 1
+INFO: 04-Aug-20 20:00:51: Females: 1
+INFO: 04-Aug-20 20:00:51: Standard SSDi: 0.146
+
+INFO: 04-Aug-20 20:00:51: Species: Hyperolius reesi
+INFO: 04-Aug-20 20:00:51: Males: 1
+INFO: 04-Aug-20 20:00:51: Females: 1
+INFO: 04-Aug-20 20:00:51: Standard SSDi: 0.182
+
+INFO: 04-Aug-20 20:00:51: Species: Hyperolius riggenbachi
+INFO: 04-Aug-20 20:00:51: Males: 45
+INFO: 04-Aug-20 20:00:51: Females: 3
+INFO: 04-Aug-20 20:00:51: Standard SSDi: 0.26.
+INFO: 04-Aug-20 20:00:51: Pairwise Analyses: Average pairwise SSDi: 0.267.
+DEBUG: 04-Aug-20 20:00:51: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 20:00:52: Permutation Test: 2.5 and 97.5 percentile values: -0.1, 0.129.
+INFO: 04-Aug-20 20:00:52: Permutation Test: Empirical value: 0.267
+INFO: 04-Aug-20 20:00:52: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 20:00:52: Permutation Test: Permutation test P-value: <0.001.
+
+INFO: 04-Aug-20 20:00:52: Species: Hyperolius rubrovermiculatus
+INFO: 04-Aug-20 20:00:52: Males: 18
+INFO: 04-Aug-20 20:00:52: Females: 2
+INFO: 04-Aug-20 20:00:52: Standard SSDi: 0.233.
+INFO: 04-Aug-20 20:00:52: Pairwise Analyses: Average pairwise SSDi: 0.238.
+DEBUG: 04-Aug-20 20:00:52: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 20:00:53: Permutation Test: 2.5 and 97.5 percentile values: -0.117, 0.186.
+INFO: 04-Aug-20 20:00:53: Permutation Test: Empirical value: 0.238
+INFO: 04-Aug-20 20:00:53: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 20:00:53: Permutation Test: Permutation test P-value: <0.001.
+
+INFO: 04-Aug-20 20:00:53: Species: Hyperolius rwandae
+INFO: 04-Aug-20 20:00:53: Males: 18
+INFO: 04-Aug-20 20:00:53: Females: 3
+INFO: 04-Aug-20 20:00:53: Standard SSDi: -0.031.
+INFO: 04-Aug-20 20:00:53: Pairwise Analyses: Average pairwise SSDi: -0.03.
+DEBUG: 04-Aug-20 20:00:53: Pairwise Analyses: One-sample t-test P-value: 0.002.
+INFO: 04-Aug-20 20:00:53: Permutation Test: 2.5 and 97.5 percentile values: -0.055, 0.065.
+INFO: 04-Aug-20 20:00:53: Permutation Test: Empirical value: -0.03
+INFO: 04-Aug-20 20:00:53: Permutation Test: Empirical value within the 2.5 and 97.5 percentiles.
+INFO: 04-Aug-20 20:00:53: Permutation Test: Permutation test P-value: 0.344.
+
+INFO: 04-Aug-20 20:00:53: Species: Hyperolius semidiscus
+INFO: 04-Aug-20 20:00:53: Males: 12
+INFO: 04-Aug-20 20:00:53: Females: 3
+INFO: 04-Aug-20 20:00:53: Standard SSDi: 0.105.
+INFO: 04-Aug-20 20:00:53: Pairwise Analyses: Average pairwise SSDi: 0.108.
+DEBUG: 04-Aug-20 20:00:53: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 20:00:54: Permutation Test: 2.5 and 97.5 percentile values: -0.108, 0.106.
+INFO: 04-Aug-20 20:00:54: Permutation Test: Empirical value: 0.108
+INFO: 04-Aug-20 20:00:54: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 20:00:54: Permutation Test: Permutation test P-value: 0.043.
+
+INFO: 04-Aug-20 20:00:54: Species: Hyperolius sp nov
+INFO: 04-Aug-20 20:00:54: Males: 13
+INFO: 04-Aug-20 20:00:54: Females: 0
+ERROR: 04-Aug-20 20:00:54: Species Hyperolius sp nov does not have at least 1 M and 1 F, skipping calculations.
+
+INFO: 04-Aug-20 20:00:54: Species: Hyperolius spatzi
+INFO: 04-Aug-20 20:00:54: Males: 1
+INFO: 04-Aug-20 20:00:54: Females: 1
+INFO: 04-Aug-20 20:00:54: Standard SSDi: 0.055
+
+INFO: 04-Aug-20 20:00:54: Species: Hyperolius spinigularis
+INFO: 04-Aug-20 20:00:54: Males: 10
+INFO: 04-Aug-20 20:00:54: Females: 3
+INFO: 04-Aug-20 20:00:54: Standard SSDi: 0.25.
+INFO: 04-Aug-20 20:00:54: Pairwise Analyses: Average pairwise SSDi: 0.251.
+DEBUG: 04-Aug-20 20:00:54: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 20:00:54: Permutation Test: 2.5 and 97.5 percentile values: -0.128, 0.167.
+INFO: 04-Aug-20 20:00:54: Permutation Test: Empirical value: 0.251
+INFO: 04-Aug-20 20:00:54: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 20:00:54: Permutation Test: Permutation test P-value: <0.001.
+
+INFO: 04-Aug-20 20:00:54: Species: Hyperolius steindachneri
+INFO: 04-Aug-20 20:00:54: Males: 1
+INFO: 04-Aug-20 20:00:54: Females: 1
+INFO: 04-Aug-20 20:00:54: Standard SSDi: 0.138
+
+INFO: 04-Aug-20 20:00:54: Species: Hyperolius substriatus
+INFO: 04-Aug-20 20:00:54: Males: 25
+INFO: 04-Aug-20 20:00:54: Females: 24
+INFO: 04-Aug-20 20:00:54: Standard SSDi: 0.235.
+INFO: 04-Aug-20 20:00:54: Pairwise Analyses: Average pairwise SSDi: 0.241.
+DEBUG: 04-Aug-20 20:00:54: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 20:00:59: Permutation Test: 2.5 and 97.5 percentile values: -0.084, 0.087.
+INFO: 04-Aug-20 20:00:59: Permutation Test: Empirical value: 0.241
+INFO: 04-Aug-20 20:00:59: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 20:00:59: Permutation Test: Permutation test P-value: <0.001.
+
+INFO: 04-Aug-20 20:00:59: Species: Hyperolius sylvaticus
+INFO: 04-Aug-20 20:00:59: Males: 22
+INFO: 04-Aug-20 20:00:59: Females: 6
+INFO: 04-Aug-20 20:00:59: Standard SSDi: 0.225.
+INFO: 04-Aug-20 20:00:59: Pairwise Analyses: Average pairwise SSDi: 0.233.
+DEBUG: 04-Aug-20 20:00:59: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 20:01:00: Permutation Test: 2.5 and 97.5 percentile values: -0.103, 0.108.
+INFO: 04-Aug-20 20:01:00: Permutation Test: Empirical value: 0.233
+INFO: 04-Aug-20 20:01:00: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 20:01:00: Permutation Test: Permutation test P-value: <0.001.
+
+INFO: 04-Aug-20 20:01:00: Species: Hyperolius tanneri
+INFO: 04-Aug-20 20:01:00: Males: 2
+INFO: 04-Aug-20 20:01:00: Females: 3
+INFO: 04-Aug-20 20:01:00: Standard SSDi: 0.158.
+INFO: 04-Aug-20 20:01:00: Pairwise Analyses: Average pairwise SSDi: 0.156.
+DEBUG: 04-Aug-20 20:01:00: Pairwise Analyses: One-sample t-test P-value: 0.043.
+INFO: 04-Aug-20 20:01:00: Permutation Test: 2.5 and 97.5 percentile values: -0.179, 0.156.
+INFO: 04-Aug-20 20:01:00: Permutation Test: Empirical value: 0.156
+INFO: 04-Aug-20 20:01:00: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 20:01:00: Permutation Test: Permutation test P-value: 0.204.
+
+INFO: 04-Aug-20 20:01:00: Species: Hyperolius thomensis
+INFO: 04-Aug-20 20:01:00: Males: 6
+INFO: 04-Aug-20 20:01:00: Females: 3
+INFO: 04-Aug-20 20:01:00: Standard SSDi: 0.142.
+INFO: 04-Aug-20 20:01:00: Pairwise Analyses: Average pairwise SSDi: 0.144.
+DEBUG: 04-Aug-20 20:01:00: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 20:01:00: Permutation Test: 2.5 and 97.5 percentile values: -0.11, 0.127.
+INFO: 04-Aug-20 20:01:00: Permutation Test: Empirical value: 0.144
+INFO: 04-Aug-20 20:01:00: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 20:01:00: Permutation Test: Permutation test P-value: <0.001.
+
+INFO: 04-Aug-20 20:01:00: Species: Hyperolius torrentis
+INFO: 04-Aug-20 20:01:00: Males: 14
+INFO: 04-Aug-20 20:01:00: Females: 5
+INFO: 04-Aug-20 20:01:00: Standard SSDi: 0.143.
+INFO: 04-Aug-20 20:01:00: Pairwise Analyses: Average pairwise SSDi: 0.145.
+DEBUG: 04-Aug-20 20:01:00: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 20:01:01: Permutation Test: 2.5 and 97.5 percentile values: -0.073, 0.08.
+INFO: 04-Aug-20 20:01:01: Permutation Test: Empirical value: 0.145
+INFO: 04-Aug-20 20:01:01: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 20:01:01: Permutation Test: Permutation test P-value: <0.001.
+
+INFO: 04-Aug-20 20:01:01: Species: Hyperolius tuberculatus
+INFO: 04-Aug-20 20:01:01: Males: 44
+INFO: 04-Aug-20 20:01:01: Females: 18
+INFO: 04-Aug-20 20:01:01: Standard SSDi: 0.08.
+INFO: 04-Aug-20 20:01:01: Pairwise Analyses: Average pairwise SSDi: 0.087.
+DEBUG: 04-Aug-20 20:01:01: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 20:01:07: Permutation Test: 2.5 and 97.5 percentile values: -0.059, 0.056.
+INFO: 04-Aug-20 20:01:07: Permutation Test: Empirical value: 0.087
+INFO: 04-Aug-20 20:01:07: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 20:01:07: Permutation Test: Permutation test P-value: 0.003.
+
+INFO: 04-Aug-20 20:01:07: Species: Hyperolius tuberilinguis
+INFO: 04-Aug-20 20:01:07: Males: 18
+INFO: 04-Aug-20 20:01:07: Females: 12
+INFO: 04-Aug-20 20:01:07: Standard SSDi: 0.176.
+INFO: 04-Aug-20 20:01:07: Pairwise Analyses: Average pairwise SSDi: 0.181.
+DEBUG: 04-Aug-20 20:01:07: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 20:01:08: Permutation Test: 2.5 and 97.5 percentile values: -0.078, 0.079.
+INFO: 04-Aug-20 20:01:08: Permutation Test: Empirical value: 0.181
+INFO: 04-Aug-20 20:01:08: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 20:01:08: Permutation Test: Permutation test P-value: <0.001.
+
+INFO: 04-Aug-20 20:01:08: Species: Hyperolius ukwiva
+INFO: 04-Aug-20 20:01:08: Males: 0
+INFO: 04-Aug-20 20:01:08: Females: 4
+ERROR: 04-Aug-20 20:01:08: Species Hyperolius ukwiva does not have at least 1 M and 1 F, skipping calculations.
+
+INFO: 04-Aug-20 20:01:08: Species: Hyperolius veithi
+INFO: 04-Aug-20 20:01:08: Males: 1
+INFO: 04-Aug-20 20:01:08: Females: 1
+INFO: 04-Aug-20 20:01:08: Standard SSDi: 0.319
+
+INFO: 04-Aug-20 20:01:08: Species: Hyperolius viridiflavus ferniquei
+INFO: 04-Aug-20 20:01:08: Males: 43
+INFO: 04-Aug-20 20:01:08: Females: 3
+INFO: 04-Aug-20 20:01:08: Standard SSDi: 0.048.
+INFO: 04-Aug-20 20:01:08: Pairwise Analyses: Average pairwise SSDi: 0.051.
+DEBUG: 04-Aug-20 20:01:08: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 20:01:10: Permutation Test: 2.5 and 97.5 percentile values: -0.082, 0.092.
+INFO: 04-Aug-20 20:01:10: Permutation Test: Empirical value: 0.051
+INFO: 04-Aug-20 20:01:10: Permutation Test: Empirical value within the 2.5 and 97.5 percentiles.
+INFO: 04-Aug-20 20:01:10: Permutation Test: Permutation test P-value: 0.261.
+
+INFO: 04-Aug-20 20:01:10: Species: Hyperolius viridiflavus glandicolor
+INFO: 04-Aug-20 20:01:10: Males: 31
+INFO: 04-Aug-20 20:01:10: Females: 3
+INFO: 04-Aug-20 20:01:10: Standard SSDi: 0.003.
+INFO: 04-Aug-20 20:01:10: Pairwise Analyses: Average pairwise SSDi: 0.003.
+DEBUG: 04-Aug-20 20:01:10: Pairwise Analyses: One-sample t-test P-value: 0.628.
+INFO: 04-Aug-20 20:01:10: Permutation Test: 2.5 and 97.5 percentile values: -0.066, 0.057.
+INFO: 04-Aug-20 20:01:10: Permutation Test: Empirical value: 0.003
+INFO: 04-Aug-20 20:01:10: Permutation Test: Empirical value within the 2.5 and 97.5 percentiles.
+INFO: 04-Aug-20 20:01:10: Permutation Test: Permutation test P-value: 0.905.
+
+INFO: 04-Aug-20 20:01:10: Species: Hyperolius viridiflavus goetzei
+INFO: 04-Aug-20 20:01:10: Males: 3
+INFO: 04-Aug-20 20:01:10: Females: 1
+INFO: 04-Aug-20 20:01:10: Standard SSDi: 0.031.
+INFO: 04-Aug-20 20:01:10: Pairwise Analyses: Average pairwise SSDi: 0.034.
+DEBUG: 04-Aug-20 20:01:10: Pairwise Analyses: One-sample t-test P-value: 0.525.
+INFO: 04-Aug-20 20:01:11: Permutation Test: 2.5 and 97.5 percentile values: -0.084, 0.111.
+INFO: 04-Aug-20 20:01:11: Permutation Test: Empirical value: 0.034
+INFO: 04-Aug-20 20:01:11: Permutation Test: Empirical value within the 2.5 and 97.5 percentiles.
+INFO: 04-Aug-20 20:01:11: Permutation Test: Permutation test P-value: 0.745.
+
+INFO: 04-Aug-20 20:01:11: Species: Hyperolius viridiflavus ngorongoriensis
+INFO: 04-Aug-20 20:01:11: Males: 18
+INFO: 04-Aug-20 20:01:11: Females: 6
+INFO: 04-Aug-20 20:01:11: Standard SSDi: 0.017.
+INFO: 04-Aug-20 20:01:11: Pairwise Analyses: Average pairwise SSDi: 0.022.
+DEBUG: 04-Aug-20 20:01:11: Pairwise Analyses: One-sample t-test P-value: 0.005.
+INFO: 04-Aug-20 20:01:12: Permutation Test: 2.5 and 97.5 percentile values: -0.061, 0.058.
+INFO: 04-Aug-20 20:01:12: Permutation Test: Empirical value: 0.022
+INFO: 04-Aug-20 20:01:12: Permutation Test: Empirical value within the 2.5 and 97.5 percentiles.
+INFO: 04-Aug-20 20:01:12: Permutation Test: Permutation test P-value: 0.477.
+
+INFO: 04-Aug-20 20:01:12: Species: Hyperolius viridiflavus ommatostictus
+INFO: 04-Aug-20 20:01:12: Males: 27
+INFO: 04-Aug-20 20:01:12: Females: 0
+ERROR: 04-Aug-20 20:01:12: Species Hyperolius viridiflavus ommatostictus does not have at least 1 M and 1 F, skipping calculations.
+
+INFO: 04-Aug-20 20:01:12: Species: Hyperolius viridiflavus pantherinus
+INFO: 04-Aug-20 20:01:12: Males: 21
+INFO: 04-Aug-20 20:01:12: Females: 1
+INFO: 04-Aug-20 20:01:12: Standard SSDi: 0.163.
+INFO: 04-Aug-20 20:01:12: Pairwise Analyses: Average pairwise SSDi: 0.165.
+DEBUG: 04-Aug-20 20:01:12: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 20:01:12: Permutation Test: 2.5 and 97.5 percentile values: -0.109, 0.165.
+INFO: 04-Aug-20 20:01:12: Permutation Test: Empirical value: 0.165
+INFO: 04-Aug-20 20:01:12: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 20:01:12: Permutation Test: Permutation test P-value: <0.001.
+
+INFO: 04-Aug-20 20:01:12: Species: Hyperolius viridiflavus pitmani
+INFO: 04-Aug-20 20:01:12: Males: 28
+INFO: 04-Aug-20 20:01:12: Females: 2
+INFO: 04-Aug-20 20:01:12: Standard SSDi: 0.094.
+INFO: 04-Aug-20 20:01:12: Pairwise Analyses: Average pairwise SSDi: 0.094.
+DEBUG: 04-Aug-20 20:01:12: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 20:01:12: Permutation Test: 2.5 and 97.5 percentile values: -0.071, 0.092.
+INFO: 04-Aug-20 20:01:12: Permutation Test: Empirical value: 0.094
+INFO: 04-Aug-20 20:01:12: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 20:01:12: Permutation Test: Permutation test P-value: 0.019.
+
+INFO: 04-Aug-20 20:01:12: Species: Hyperolius viridiflavus rubripes
+INFO: 04-Aug-20 20:01:12: Males: 50
+INFO: 04-Aug-20 20:01:12: Females: 8
+INFO: 04-Aug-20 20:01:12: Standard SSDi: 0.057.
+INFO: 04-Aug-20 20:01:12: Pairwise Analyses: Average pairwise SSDi: 0.059.
+DEBUG: 04-Aug-20 20:01:12: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 20:01:16: Permutation Test: 2.5 and 97.5 percentile values: -0.038, 0.037.
+INFO: 04-Aug-20 20:01:16: Permutation Test: Empirical value: 0.059
+INFO: 04-Aug-20 20:01:16: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 20:01:16: Permutation Test: Permutation test P-value: 0.001.
+
+INFO: 04-Aug-20 20:01:16: Species: Hyperolius viridiflavus viridiflavus
+INFO: 04-Aug-20 20:01:16: Males: 38
+INFO: 04-Aug-20 20:01:16: Females: 4
+INFO: 04-Aug-20 20:01:16: Standard SSDi: 0.019.
+INFO: 04-Aug-20 20:01:16: Pairwise Analyses: Average pairwise SSDi: 0.019.
+DEBUG: 04-Aug-20 20:01:16: Pairwise Analyses: One-sample t-test P-value: 0.003.
+INFO: 04-Aug-20 20:01:17: Permutation Test: 2.5 and 97.5 percentile values: -0.069, 0.066.
+INFO: 04-Aug-20 20:01:17: Permutation Test: Empirical value: 0.019
+INFO: 04-Aug-20 20:01:17: Permutation Test: Empirical value within the 2.5 and 97.5 percentiles.
+INFO: 04-Aug-20 20:01:17: Permutation Test: Permutation test P-value: 0.579.
+
+INFO: 04-Aug-20 20:01:17: Species: Hyperolius viridis
+INFO: 04-Aug-20 20:01:17: Males: 1
+INFO: 04-Aug-20 20:01:17: Females: 0
+ERROR: 04-Aug-20 20:01:17: Species Hyperolius viridis does not have at least 1 M and 1 F, skipping calculations.
+
+INFO: 04-Aug-20 20:01:17: Species: Kassina arboricola
+INFO: 04-Aug-20 20:01:17: Males: 15
+INFO: 04-Aug-20 20:01:17: Females: 6
+INFO: 04-Aug-20 20:01:17: Standard SSDi: -0.053.
+INFO: 04-Aug-20 20:01:17: Pairwise Analyses: Average pairwise SSDi: -0.05.
+DEBUG: 04-Aug-20 20:01:17: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 20:01:18: Permutation Test: 2.5 and 97.5 percentile values: -0.05, 0.049.
+INFO: 04-Aug-20 20:01:18: Permutation Test: Empirical value: -0.05
+INFO: 04-Aug-20 20:01:18: Permutation Test: Empirical value lies outside the 2.5 percentile.
+INFO: 04-Aug-20 20:01:18: Permutation Test: Permutation test P-value: 0.045.
+
+INFO: 04-Aug-20 20:01:18: Species: Kassina cassinoides
+INFO: 04-Aug-20 20:01:18: Males: 2
+INFO: 04-Aug-20 20:01:18: Females: 0
+ERROR: 04-Aug-20 20:01:18: Species Kassina cassinoides does not have at least 1 M and 1 F, skipping calculations.
+
+INFO: 04-Aug-20 20:01:18: Species: Kassina cochranae
+INFO: 04-Aug-20 20:01:18: Males: 1
+INFO: 04-Aug-20 20:01:18: Females: 2
+INFO: 04-Aug-20 20:01:18: Standard SSDi: -0.003.
+INFO: 04-Aug-20 20:01:18: Pairwise Analyses: Average pairwise SSDi: -0.003.
+DEBUG: 04-Aug-20 20:01:18: Pairwise Analyses: One-sample t-test P-value: 0.966.
+INFO: 04-Aug-20 20:01:18: Permutation Test: 2.5 and 97.5 percentile values: -0.07, 0.073.
+INFO: 04-Aug-20 20:01:18: Permutation Test: Empirical value: -0.003
+INFO: 04-Aug-20 20:01:18: Permutation Test: Empirical value within the 2.5 and 97.5 percentiles.
+INFO: 04-Aug-20 20:01:18: Permutation Test: Permutation test P-value: 0.66.
+
+INFO: 04-Aug-20 20:01:18: Species: Kassina decorata
+INFO: 04-Aug-20 20:01:18: Males: 0
+INFO: 04-Aug-20 20:01:18: Females: 1
+ERROR: 04-Aug-20 20:01:18: Species Kassina decorata does not have at least 1 M and 1 F, skipping calculations.
+
+INFO: 04-Aug-20 20:01:18: Species: Kassina fusca
+INFO: 04-Aug-20 20:01:18: Males: 8
+INFO: 04-Aug-20 20:01:18: Females: 1
+INFO: 04-Aug-20 20:01:18: Standard SSDi: 0.073.
+INFO: 04-Aug-20 20:01:18: Pairwise Analyses: Average pairwise SSDi: 0.078.
+DEBUG: 04-Aug-20 20:01:18: Pairwise Analyses: One-sample t-test P-value: 0.018.
+INFO: 04-Aug-20 20:01:18: Permutation Test: 2.5 and 97.5 percentile values: -0.132, 0.143.
+INFO: 04-Aug-20 20:01:18: Permutation Test: Empirical value: 0.078
+INFO: 04-Aug-20 20:01:18: Permutation Test: Empirical value within the 2.5 and 97.5 percentiles.
+INFO: 04-Aug-20 20:01:18: Permutation Test: Permutation test P-value: 0.218.
+
+INFO: 04-Aug-20 20:01:18: Species: Kassina kuvangensis
+INFO: 04-Aug-20 20:01:18: Males: 16
+INFO: 04-Aug-20 20:01:18: Females: 3
+INFO: 04-Aug-20 20:01:18: Standard SSDi: 0.129.
+INFO: 04-Aug-20 20:01:18: Pairwise Analyses: Average pairwise SSDi: 0.135.
+DEBUG: 04-Aug-20 20:01:18: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 20:01:18: Permutation Test: 2.5 and 97.5 percentile values: -0.115, 0.095.
+INFO: 04-Aug-20 20:01:18: Permutation Test: Empirical value: 0.135
+INFO: 04-Aug-20 20:01:18: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 20:01:18: Permutation Test: Permutation test P-value: 0.013.
+
+INFO: 04-Aug-20 20:01:18: Species: Kassina lamottei
+INFO: 04-Aug-20 20:01:18: Males: 7
+INFO: 04-Aug-20 20:01:18: Females: 0
+ERROR: 04-Aug-20 20:01:18: Species Kassina lamottei does not have at least 1 M and 1 F, skipping calculations.
+
+INFO: 04-Aug-20 20:01:18: Species: Kassina schioetzi
+INFO: 04-Aug-20 20:01:18: Males: 1
+INFO: 04-Aug-20 20:01:18: Females: 1
+INFO: 04-Aug-20 20:01:18: Standard SSDi: 0.011
+
+INFO: 04-Aug-20 20:01:18: Species: Kassina senegalensis
+INFO: 04-Aug-20 20:01:18: Males: 56
+INFO: 04-Aug-20 20:01:18: Females: 15
+INFO: 04-Aug-20 20:01:18: Standard SSDi: -0.006.
+INFO: 04-Aug-20 20:01:18: Pairwise Analyses: Average pairwise SSDi: -0.004.
+DEBUG: 04-Aug-20 20:01:18: Pairwise Analyses: One-sample t-test P-value: 0.423.
+INFO: 04-Aug-20 20:01:25: Permutation Test: 2.5 and 97.5 percentile values: -0.061, 0.064.
+INFO: 04-Aug-20 20:01:25: Permutation Test: Empirical value: -0.004
+INFO: 04-Aug-20 20:01:25: Permutation Test: Empirical value within the 2.5 and 97.5 percentiles.
+INFO: 04-Aug-20 20:01:25: Permutation Test: Permutation test P-value: 0.888.
+
+INFO: 04-Aug-20 20:01:25: Species: Kassinula wittei
+INFO: 04-Aug-20 20:01:25: Males: 17
+INFO: 04-Aug-20 20:01:25: Females: 0
+ERROR: 04-Aug-20 20:01:25: Species Kassinula wittei does not have at least 1 M and 1 F, skipping calculations.
+
+INFO: 04-Aug-20 20:01:25: Species: Morerella cyanophthalma
+INFO: 04-Aug-20 20:01:25: Males: 1
+INFO: 04-Aug-20 20:01:25: Females: 1
+INFO: 04-Aug-20 20:01:25: Standard SSDi: 0.114
+
+INFO: 04-Aug-20 20:01:25: Species: Opisthothylax immaculatus
+INFO: 04-Aug-20 20:01:25: Males: 7
+INFO: 04-Aug-20 20:01:25: Females: 2
+INFO: 04-Aug-20 20:01:25: Standard SSDi: 0.084.
+INFO: 04-Aug-20 20:01:25: Pairwise Analyses: Average pairwise SSDi: 0.083.
+DEBUG: 04-Aug-20 20:01:25: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 20:01:25: Permutation Test: 2.5 and 97.5 percentile values: -0.076, 0.083.
+INFO: 04-Aug-20 20:01:25: Permutation Test: Empirical value: 0.083
+INFO: 04-Aug-20 20:01:25: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 20:01:25: Permutation Test: Permutation test P-value: <0.001.
+
+INFO: 04-Aug-20 20:01:25: Species: Paracassina kounhiensis
+INFO: 04-Aug-20 20:01:25: Males: 1
+INFO: 04-Aug-20 20:01:25: Females: 2
+INFO: 04-Aug-20 20:01:25: Standard SSDi: -0.023.
+INFO: 04-Aug-20 20:01:25: Pairwise Analyses: Average pairwise SSDi: -0.024.
+DEBUG: 04-Aug-20 20:01:25: Pairwise Analyses: One-sample t-test P-value: 0.441.
+INFO: 04-Aug-20 20:01:25: Permutation Test: 2.5 and 97.5 percentile values: -0.024, 0.04.
+INFO: 04-Aug-20 20:01:25: Permutation Test: Empirical value: -0.024
+INFO: 04-Aug-20 20:01:25: Permutation Test: Empirical value lies outside the 2.5 percentile.
+INFO: 04-Aug-20 20:01:25: Permutation Test: Permutation test P-value: 0.337.
+
+INFO: 04-Aug-20 20:01:25: Species: Phlyctimantis boulengeri
+INFO: 04-Aug-20 20:01:25: Males: 9
+INFO: 04-Aug-20 20:01:25: Females: 0
+ERROR: 04-Aug-20 20:01:25: Species Phlyctimantis boulengeri does not have at least 1 M and 1 F, skipping calculations.
+
+INFO: 04-Aug-20 20:01:25: Species: Phlyctimantis leonardi
+INFO: 04-Aug-20 20:01:25: Males: 4
+INFO: 04-Aug-20 20:01:25: Females: 1
+INFO: 04-Aug-20 20:01:25: Standard SSDi: 0.03.
+INFO: 04-Aug-20 20:01:25: Pairwise Analyses: Average pairwise SSDi: 0.032.
+DEBUG: 04-Aug-20 20:01:25: Pairwise Analyses: One-sample t-test P-value: 0.013.
+INFO: 04-Aug-20 20:01:25: Permutation Test: 2.5 and 97.5 percentile values: -0.026, 0.032.
+INFO: 04-Aug-20 20:01:25: Permutation Test: Empirical value: 0.032
+INFO: 04-Aug-20 20:01:25: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 20:01:25: Permutation Test: Permutation test P-value: <0.001.
+
+INFO: 04-Aug-20 20:01:25: Species: Phlyctimantis maculata
+INFO: 04-Aug-20 20:01:25: Males: 14
+INFO: 04-Aug-20 20:01:25: Females: 2
+INFO: 04-Aug-20 20:01:25: Standard SSDi: 0.04.
+INFO: 04-Aug-20 20:01:25: Pairwise Analyses: Average pairwise SSDi: 0.049.
+DEBUG: 04-Aug-20 20:01:25: Pairwise Analyses: One-sample t-test P-value: 0.05.
+INFO: 04-Aug-20 20:01:26: Permutation Test: 2.5 and 97.5 percentile values: -0.159, 0.127.
+INFO: 04-Aug-20 20:01:26: Permutation Test: Empirical value: 0.049
+INFO: 04-Aug-20 20:01:26: Permutation Test: Empirical value within the 2.5 and 97.5 percentiles.
+INFO: 04-Aug-20 20:01:26: Permutation Test: Permutation test P-value: 0.558.
+
+INFO: 04-Aug-20 20:01:26: Species: Phlyctimantis verrucosus
+INFO: 04-Aug-20 20:01:26: Males: 30
+INFO: 04-Aug-20 20:01:26: Females: 6
+INFO: 04-Aug-20 20:01:26: Standard SSDi: 0.023.
+INFO: 04-Aug-20 20:01:26: Pairwise Analyses: Average pairwise SSDi: 0.022.
+DEBUG: 04-Aug-20 20:01:26: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 20:01:27: Permutation Test: 2.5 and 97.5 percentile values: -0.046, 0.046.
+INFO: 04-Aug-20 20:01:27: Permutation Test: Empirical value: 0.022
+INFO: 04-Aug-20 20:01:27: Permutation Test: Empirical value within the 2.5 and 97.5 percentiles.
+INFO: 04-Aug-20 20:01:27: Permutation Test: Permutation test P-value: 0.349.
+
+INFO: 04-Aug-20 20:01:27: Species: Semnodactylus wealii
+INFO: 04-Aug-20 20:01:27: Males: 10
+INFO: 04-Aug-20 20:01:27: Females: 9
+INFO: 04-Aug-20 20:01:27: Standard SSDi: 0.123.
+INFO: 04-Aug-20 20:01:27: Pairwise Analyses: Average pairwise SSDi: 0.128.
+DEBUG: 04-Aug-20 20:01:27: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 20:01:28: Permutation Test: 2.5 and 97.5 percentile values: -0.094, 0.089.
+INFO: 04-Aug-20 20:01:28: Permutation Test: Empirical value: 0.128
+INFO: 04-Aug-20 20:01:28: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 20:01:28: Permutation Test: Permutation test P-value: 0.004.
+
+INFO: 04-Aug-20 20:01:28: Species: Tachycnemis seychellensis
+INFO: 04-Aug-20 20:01:28: Males: 4
+INFO: 04-Aug-20 20:01:28: Females: 5
+INFO: 04-Aug-20 20:01:28: Standard SSDi: 0.313.
+INFO: 04-Aug-20 20:01:28: Pairwise Analyses: Average pairwise SSDi: 0.316.
+DEBUG: 04-Aug-20 20:01:28: Pairwise Analyses: One-sample t-test P-value: <0.001.
+INFO: 04-Aug-20 20:01:29: Permutation Test: 2.5 and 97.5 percentile values: -0.26, 0.222.
+INFO: 04-Aug-20 20:01:29: Permutation Test: Empirical value: 0.316
+INFO: 04-Aug-20 20:01:29: Permutation Test: Empirical value lies outside the 97.5 percentile.
+INFO: 04-Aug-20 20:01:29: Permutation Test: Permutation test P-value: <0.001.
+
+INFO: 04-Aug-20 20:01:29: Writing output files.
+
+
+INFO: 04-Aug-20 20:01:29: Finished! Total elapsed time: 0:02:06.915766 (H:M:S)
+
+
