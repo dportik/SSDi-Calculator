@@ -48,14 +48,6 @@ ImportError: No module named numpy
 
 If you use **SSDi-Calculator** for your research, please cite this publication.
 
-## License
-
-GNU Lesser General Public License v3.0
-
-## Contact
-
-SSDi-Calculator is written and maintained by Daniel Portik (daniel.portik@gmail.com). If you have any questions or issues, please open a topic on the `Issues` section on this github page.
-
 
 ## Instructions
 
@@ -277,4 +269,14 @@ Notice that some entries were skipped due to illegal values for the sex.
 ### 4. Example Data Set <a name="EDS"></a>
 
 There is an example data set provided in the [example-data](https://github.com/dportik/SSDi-Calculator/tree/master/example-data) folder. The dataset is provided in tab-delimited format, and in CSV format. You can run **SSDi-Calculator** on these test files to ensure everything is working properly. The outputs from these datasets are provided in the [example-results](https://github.com/dportik/SSDi-Calculator/tree/master/example-results) folder.
+
+
+
+## License
+
+GNU Lesser General Public License v3.0
+
+## Contact
+
+SSDi-Calculator is written and maintained by Daniel Portik (daniel.portik@gmail.com). If you have any questions or issues, please open a topic on the `Issues` section on this github page.
 
