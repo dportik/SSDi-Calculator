@@ -33,10 +33,10 @@ Type "help", "copyright", "credits" or "license" for more information.
 If they are installed correctly, nothing obvious will happen on the screen. If they are not installed correctly, you will see an error:
 
 ```
->>> import Bio
+>>> import scipy
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
-ImportError: No module named numpy
+ImportError: No module named scipy
 ```
 
 
