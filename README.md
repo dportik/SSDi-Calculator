@@ -68,9 +68,9 @@ This analysis will calculate a sexual size dimorphism index (SSDi) to quantify S
 
 Two versions of the SSDi are calculated (for each species):
 
-1. The mean body size of each sex is obtained and the means are used to calculate SSDi. We can call this the "standard" SSDi, as this is the typical way of calculating an SSDi. 
+1. **Standard SSDi.** The mean body size of each sex is obtained and the means are used to calculate SSDi. We can call this the standard SSDi, as this is the typical way of calculating an SSDi. If you only have one data point for each sex for a given species, this is also fine. The point estimates will be used instead of the average.
 
-2. The SSDi is obtained for all possible male-female pairwise comparisons, and the average SSDi is obtained from this distribution of values. We can call this the pairwise SSDi, as it results from pairwise comparisons. This version explicitly accounts for intraspecific variation. **If you only have one data point for each sex, this calculation is skipped.**  
+2. **Pairwise SSDi.** The SSDi is obtained for all possible male-female pairwise comparisons, and the average SSDi is obtained from this distribution of values. We can call this the pairwise SSDi, as it results from pairwise comparisons. This version explicitly accounts for intraspecific variation. **If you only have one data point for each sex, this calculation is skipped.**  
 
 #### Permutation Test
 
@@ -92,17 +92,17 @@ The 10,000 simulated SSDi values of the permuted data represent the estimate of 
 + We can reject the null hypothesis that the sexes are equal in size, and classify the species as displaying sexual size dimorphism. 
 
 **If the P-value > 0.05:**
-+ We fail to reject the null hypothesis that the sexes are equal in size, and cannot classify the species as sexually size dimorphic. Although it would be tempting to say the species displays sexual size monomorphism, you should not. The failure to reject the null hypothesis could result from a true lack of body size difference between the sexes, or from artifacts such as insufficient sample sizes or high variation. 
++ We fail to reject the null hypothesis that the sexes are equal in size, and cannot classify the species as sexually size dimorphic. Although it would be tempting to say the species displays sexual size monomorphism, it is simply a convenience label. The failure to reject the null hypothesis could result from a true lack of body size difference between the sexes, or from artifacts such as insufficient sample sizes or high variation. Therefore, use caution when discussing these species and provide the caveats above.
 
 ### 2. Input Data Format <a name="IDF"></a>
 
 The input can be either a CSV file (comma-separated) or tab-delimited text file. There are only three required columns:
 
-1. Species - The species name. This can appear as a binomial name (`Afrixalus dorsalis` or `Afrixalus_dorsalis`) or a trinomial name (`Afrixalus dorsalis dorsalis`). Please note that names are not checked for errors or extra spacing, they are read as is. Any differences in names will result in them being treated as different species. You can also use numbers in this column, as I did for the publication (in which lineages are denoted by integers - `Afrixalus dorsalis 1`, `Afrixalus dorsalis 2`, etc.).
+1. **Species** - The species name. This can appear as a binomial name (`Afrixalus dorsalis` or `Afrixalus_dorsalis`, note spaces or undescores can be used) or a trinomial name (`Afrixalus dorsalis dorsalis`). Please note that names are not checked for errors (such as extra spaces), they are simply read as is. This means any differences in names (even small ones) will result in them being treated as different species. You can also use numbers in this column, as I did for the publication (in which lineages are denoted by integers - `Afrixalus dorsalis 1`, `Afrixalus dorsalis 2`, etc.).
 
-2. Sex - This represents whether the individual is male or female. This should be coded as `m`, `M`, `f`, or `F`. The `m` and `f` are not case-sensitive (`m` = `M`). Any letters or symbols here that are not `m` or `f` will be excluded from the analysis (and written to the log file as errors).
+2. **Sex** - This represents whether the individual is male or female. This should be coded as `m`, `M`, `f`, or `F`. The `m` and `f` are not case-sensitive (`m` = `M`). Any letters or symbols here that are not `m` or `f` will be excluded from the analysis (and written to the log file as errors).
 
-3. Size - This should be the body size measurement of the individual, such as `35.5` or `35`. You can include any number of decimal places, or none at all.
+3. **Size** - This should be the body size measurement of the individual, such as `35.5` or `35`. You can include any number of decimal places, or none at all.
 
 Any number of additional columns can be included after the third column - they are simply ignored. The header line is also ignored, so you can label your columns however you like.
 
@@ -147,6 +147,8 @@ Afrixalus dorsalis 1,m,24.0,CAS 253858,Present Study,specimen,Cameroon
 Afrixalus dorsalis 1,m,26.3,CAS 253859,Present Study,specimen,Cameroon
 Afrixalus dorsalis 1,m,26.0,CAS 253860,Present Study,specimen,Cameroon
 ```
+
+Notice that the column names can be whatever you'd like, and you can include as many columns after the first three. However, the order of the first three columns MUST be: species, sex, size.
 
 Example files of both formats are provided in the [example-data](https://github.com/dportik/SSDi-Calculator/tree/master/example-data) folder.
 
@@ -218,11 +220,11 @@ Afrixalus fulvovittatus 1	35	8	24.4	25.9	0.061	0.068	0.007	0.076	-0.078	0.073
 Afrixalus fulvovittatus 2	7	6	23.1	24.6	0.065	0.063	0.002	0.011	-0.051	0.051
 ```
 
-Here you can see that several species contain only 1 data point for males and 1 data point for females - in these cases the pairwise SSDi and permutation tests are skipped and a `NA` is written to these columns.
+Here you can see that several species contain only 1 data point for males and 1 data point for females - in these cases the pairwise SSDi and permutation tests are skipped and a `NA` is written to these columns. It also will display an `NA` for the average size columns, since only 1 data point is available for each and a mean cannot be calculated.
 
 **Log File**
 
-There will also be a log file produced called `SSDi-Calculator-Run.log`, with the same information printed to screen and more. This can be useful for de-bugging or finding possible errors in your dataset. Here is an example of the contents:
+There will also be a log file produced called `SSDi-Calculator-Run.log`, with the same information printed to screen (and more!). This can be extremely useful for de-bugging and finding possible errors in your dataset. Here is an example of the contents:
 
 ```
 DEBUG: 04-Aug-20 19:59:22: BEGINNING ANALYSIS
@@ -266,7 +268,7 @@ INFO: 04-Aug-20 19:59:22: Permutation Test: Empirical value lies outside the 97.
 INFO: 04-Aug-20 19:59:22: Permutation Test: Permutation test P-value: <0.001.
 ```
 
-Notice that some entries were skipped due to illegal values for the sex.
+Notice that some entries were skipped due to illegal values for the sex. The log file will also have results for a one-sample T-test (where the distribution of pairwise SSDi values is compared to a hypothesized mean of 0). The reviewers rightly pointed out this test will contain an inflated number of degrees of freedom, thereby skewing the results. That's why we use the permutation test instead. 
 
 ### 4. Example Data Set <a name="EDS"></a>
 
