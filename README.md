@@ -44,9 +44,9 @@ ImportError: No module named numpy
 
 **SSDi-Calculator** is described the following publication:
 
-+ Portik, D.M., Blackburn, D.C., and J.A. McGuire. 2020. Macroevolutionary patterns of sexual size dimorphism among African tree frogs (Family: Hyperoliidae). Journal of Heredity, Online Early. https://doi.org/10.1093/jhered/esaa019. 
++ Portik, D.M., Blackburn, D.C., and J.A. McGuire. 2020. Macroevolutionary patterns of sexual size dimorphism among African tree frogs (Family: Hyperoliidae). Journal of Heredity, 111: 379-391. https://doi.org/10.1093/jhered/esaa019. 
 
-[**Click here for PDF.**](https://academic.oup.com/jhered/advance-article/doi/10.1093/jhered/esaa019/5864412?guestAccessKey=25c9888e-e22c-4245-b78f-1722a37bcbbc)
+[**Click here to access paper.**](https://academic.oup.com/jhered/advance-article/doi/10.1093/jhered/esaa019/5864412?guestAccessKey=25c9888e-e22c-4245-b78f-1722a37bcbbc)
 
 If you use **SSDi-Calculator** for your research, please cite this publication.
 
