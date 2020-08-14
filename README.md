@@ -8,7 +8,7 @@
 
 ## Version
 
-The current release of **SSDi-Calculator** is v1.0.
+The current release of **SSDi-Calculator** is [v1.0](https://github.com/dportik/SSDi-Calculator/releases/tag/v1.0).
 
 ## Installation
 
