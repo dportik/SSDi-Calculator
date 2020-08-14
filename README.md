@@ -100,7 +100,7 @@ The input can be either a CSV file (comma-separated) or tab-delimited text file.
 
 2. Sex - This represents whether the individual is male or female. This should be coded as `m`, `M`, `f`, or `F`. The `m` and `f` are not case-sensitive (`m` = `M`). Any letters or symbols here that are not `m` or `f` will be excluded from the analysis (and written to the log file as errors).
 
-3. Size - This should be the body size measurement of the individual, such as `35.5` or another float value. Please include at least one decimal place.
+3. Size - This should be the body size measurement of the individual, such as `35.5` or `35`. You can include any number of decimal places, or none at all.
 
 Any number of additional columns can be included after the third column - they are simply ignored. The header line is also ignored, so you can label your columns however you like.
 
