@@ -78,13 +78,15 @@ A permutation test is conducted if the species has data available for >1 male or
 
 When SSDi is calculated, a species is automatically classified as displaying male or female-biased SSD, even if the difference between male and female body size is minimal. In other words, a statistical distinction between sexual size dimorphism and monomorphism is not made based on this measure. The permutation test allows us to address this.
 
-The permutation test is conducted with 10,000 bootstrap replicates to evaluate the null hypothesis that male and female body sizes come from the same population (where SSDi = 0). For each replicate:
+The permutation test is conducted with 10,000 bootstrap replicates to evaluate the null hypothesis that male and female body sizes come from the same population (where SSDi = 0). Below are the steps of the test:
 
-1. The labels of males and females are randomly shuffled (keeping the same number of male and female labels as in the original set).
+1. For a given replicate, the labels of males and females are randomly shuffled. The same number of male and female labels present in the original set are used.
 
-2. All possible pairwise SSDi values are calculated. 
+2. All possible pairwise SSDi values are calculated from this shuffled labeled set of males and females. 
 
-3. A mean pairwise SSDi value is obtained from the set of values. 
+3. The mean pairwise SSDi value is obtained from the set of values generated for the replicate.
+
+4. This procedure is repeated for a total of 10,000 replicates.
 
 The 10,000 simulated SSDi values of the permuted data represent the estimate of the sampling distribution under the null hypothesis. The test then assesses whether the empirical mean pairwise SSDi is outside of the critical values of the simulated distribution (2.5% and 97.5%, representing a 5% significance level), and a P-value is calculated. 
 
