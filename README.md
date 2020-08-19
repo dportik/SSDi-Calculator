@@ -80,7 +80,7 @@ When SSDi is calculated, a species is automatically classified as displaying mal
 
 The permutation test is conducted with 10,000 bootstrap replicates to evaluate the null hypothesis that male and female body sizes come from the same population (where SSDi = 0). For each replicate:
 
-1. The labels of males and females are randomly shuffled.
+1. The labels of males and females are randomly shuffled (keeping the same number of male and female labels as in the original set).
 
 2. All possible pairwise SSDi values are calculated. 
 
