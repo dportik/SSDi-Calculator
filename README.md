@@ -274,7 +274,17 @@ Notice that some entries were skipped due to illegal values for the sex. The log
 
 There is an example data set provided in the [example-data](https://github.com/dportik/SSDi-Calculator/tree/master/example-data) folder. The dataset is provided in tab-delimited format, and in CSV format. You can run **SSDi-Calculator** on these test files to ensure everything is working properly. The outputs from these datasets are provided in the [example-results](https://github.com/dportik/SSDi-Calculator/tree/master/example-results) folder.
 
+The syntax for running these analyses is provided below. Please note that you will have to change the paths for the files and directories, based on where you are storing them locally!
 
+Tab-delimited version:
+```
+python SSDi-Calculator.py -i /example-data/Hyperoliid-Dataset.txt -f tab -o /example-outputs
+```
+
+CSV version:
+```
+python SSDi-Calculator.py -i /example-data/Hyperoliid-Dataset.csv -f csv -o /example-outputs
+```
 
 ## License
 
