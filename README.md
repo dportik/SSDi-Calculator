@@ -294,5 +294,5 @@ GNU Lesser General Public License v3.0
 
 ## Contact
 
-SSDi-Calculator is written and maintained by Daniel Portik (daniel.portik@gmail.com). If you have any questions or issues, please open a topic on the `Issues` section on this github page.
+SSDi-Calculator is written and maintained by Daniel Portik. If you have any questions or issues, please open a topic on the `Issues` section on this github page.
 
